@@ -25,6 +25,6 @@ text-align: center;
 }
 
 .navbar {
-height: 100vh;
 background-color: var(--color2);
+position:static;
 }
