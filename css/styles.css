@@ -62,11 +62,13 @@ text-align: right;
 
 /*-----------COMIENZO DE PIEZAS-----------*/
 
+/*--COMIENZO DEL HEADER--*/
+
 #cnt-piezas {
     display: flex;
     background-color: #e0e0e0;
     padding-top: 3.5em;
-    height: 50vh;
+    height: 50%;
     align-items: center;
     justify-content: center;
     }
@@ -80,6 +82,28 @@ text-align: right;
     padding: 1em;
     text-align: right;  
     }
+
+/*--FINAL DEL HEADER--*/
+
+/*--COMIENZO DEL CONTENIDO--*/
+
+#contenido {
+width: 50%;
+margin: 0 auto;
+padding: 2rem;
+display: flex;
+flex-wrap: wrap;
+gap: 2rem;
+background-color: #6aba66;
+}
+
+#contenido img {
+width: 300px;
+aspect-ratio: 3/2;
+background-color: var(--color4);
+}
+
+/*--FINAL DEL CONTENIDO--*/
 
 /*-----------FINAL DE PIEZAS-----------*/
 
