@@ -113,6 +113,44 @@ text-align: right;
 width: 100%;
 }
 
+.frente {
+padding-left: 1em;
+display: flex;
+background-color: #6aba66;
+margin-bottom: 0.5em;
+}
+
+.frente figure img {
+width: 30%;
+background-color: #cd3f3f;
+}
+
+.varillas {
+text-align: right;
+padding-right: 1em;
+display: flex;
+background-color: #6aba66;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+}
+
+.varillas figure img {
+width: 30%;
+background-color: #cd3f3f;
+}
+
+.terminales {
+padding-left: 1em;
+display: flex;
+background-color: #6aba66;
+margin-top: 0.5em;
+}
+
+.terminales figure img {
+width: 30%;
+background-color: #cd3f3f;
+}
+
 
 /*--FINAL DEL CONTENIDO--*/
 
