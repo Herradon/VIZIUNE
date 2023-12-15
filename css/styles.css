@@ -20,9 +20,8 @@
 
 /*--COMIENZO DEL HEADER--*/
 
-header{
+ header #header{
 width: 100%;
-height: 100vh;
 text-align: center;
 }
 
@@ -111,7 +110,7 @@ text-align: right;
 /*--COMIENZO DEL CONTENIDO--*/
 
 #contenido {
-margin-top: -4em;
+width: 100%;
 }
 
 
