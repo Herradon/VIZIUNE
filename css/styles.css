@@ -32,7 +32,7 @@ position: fixed;
 width: 100%;
 }
 
-#cnt-nav {
+#cnt-nosotros {
 display: flex;
 background-color: #e0e0e0;
 padding-top: 3.5em;
@@ -41,11 +41,11 @@ align-items: center;
 justify-content: center;
 }
 
-#cnt-nav img {
+#cnt-nosotros img {
 width: 50%;
 }
 
-#cnt-nav .text-img {
+#cnt-nosotros .text-img {
 height: 15em;
 padding: 1em;
 text-align: right;  
@@ -61,6 +61,25 @@ text-align: right;
 /*-----------FINAL DE HISTORIA-----------*/
 
 /*-----------COMIENZO DE PIEZAS-----------*/
+
+#cnt-piezas {
+    display: flex;
+    background-color: #e0e0e0;
+    padding-top: 3.5em;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    #cnt-piezas img {
+    width: 50%;
+    }
+    
+    #cnt-piezas .text-img {
+    height: 15em;
+    padding: 1em;
+    text-align: right;  
+    }
 
 /*-----------FINAL DE PIEZAS-----------*/
 
