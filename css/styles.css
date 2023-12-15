@@ -1,0 +1,17 @@
+/*--AJUSTES GENERALES--*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --color0:  #6aba66;
+    --color1: #ffffff;
+    --color2: #e0e0e0;
+    --color3: #000000;
+    --color4: #cd3f3f;
+   
+}
