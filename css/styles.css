@@ -8,7 +8,7 @@
 }
 
 :root {
-    --color0:  #6aba66;
+    --color0:  rgb(247, 254, 112);
     --color1: #ffffff;
     --color2: #e0e0e0;
     --color3: #000000;
@@ -26,17 +26,10 @@ text-align: center;
 }
 
 .navbar {
-background-color: var(--color2);
 position: fixed;
 width: 100%;
 }
 
-.navbar .navbar-brand {
-border-style: groove;
-border-color: var(--color3);
-width: 3em;
-border-radius: 50%;
-}
 
 .navbar .collapse {
 justify-content: center;
@@ -49,7 +42,6 @@ margin-right: 2em;
 
 #cnt-nosotros {
 display: flex;
-background-color: #e0e0e0;
 height: 100vh;
 align-items: center;
 justify-content: center;
@@ -76,7 +68,6 @@ text-align: right;
 
 #cnt-piezas {
     display: flex;
-    background-color: #e0e0e0;
     padding-top: 3.5em;
     height: 50%;
     align-items: center;
@@ -103,30 +94,23 @@ text-align: right;
 
 #cnt-piezas {
     display: flex;
-    background-color: #e0e0e0;
     padding-top: 3.5em;
+    padding-left: 4em;
     height: 50%;
     align-items: center;
     justify-content: center;
     }
     
-    #cnt-piezas img {
-    width: 50%;
-    }
-    
-    #cnt-piezas .text-img {
-    height: 15em;
-    padding: 1em;
-    text-align: right;  
-    }
 
 /*--FINAL DEL HEADER--*/
 
 /*--COMIENZO DEL CONTENIDO--*/
 
-#contenido {
+
+.carousel-item {
 width: 100%;
-text-align: center;
+text-align: left;
+height: 12em;
 }
 
 
@@ -138,34 +122,32 @@ padding-left: 1em;
 
 .frente {
 display: flex;
-margin-bottom: 0.5em;
-padding-top: 1.5em;
+align-items: center;
+text-align: center;
+padding-left: 3em;
 }
 
 .frente figure img {
 width: 50%;
+
 }
 
 .varillas {
 display: flex;
-margin-top: 0.5em;
-margin-bottom: 0.5em;
-padding-top: 1.5em;
-}
-
-.varillas .card-body {
-text-align: right;
-padding-right: 1em;
+align-items: center;
+text-align: center;
+padding-left: 3em;
 }
 
 .varillas figure img {
 width: 50%;
-}
 
+}
 .terminales {
 display: flex;
-margin-top: 0.5em;
-padding-top: 1.5em;
+align-items: center;
+text-align: center;
+padding-left: 3em;
 }
 
 .terminales figure img {
