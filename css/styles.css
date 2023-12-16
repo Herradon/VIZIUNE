@@ -106,6 +106,7 @@ text-align: right;
 
 /*--COMIENZO DEL CONTENIDO--*/
 
+/*--COMIENZO DE CONTENIDO TRIPLE--*/
 
 .carousel-item {
 width: 100%;
@@ -153,6 +154,50 @@ padding-left: 3em;
 .terminales figure img {
 width: 50%;
 }
+
+
+/*--FINAL DE CONTENIDO TRIPLE--*/
+
+/*--COMIENZO DE EQUIPO--*/
+
+#texto-eq {
+margin-top: 2em;
+margin-bottom: 2em;
+text-align: center;
+}
+
+
+#equipo {
+display: flex;
+justify-content: center;
+margin-top: 2em;
+margin-bottom: 2em;
+}
+    
+#equipo img {
+width: 20%;
+margin: 1em;
+}
+
+/*--FINAL DE EQUIPO--*/
+
+/*--COMIENZO DE INDUSTRIA--*/
+
+#texto-ind {
+text-align: center;
+}
+
+#industria {
+display: flex;
+justify-content: center;
+    }
+    
+#industria img {
+width: 20%;
+margin: 1em;
+}
+    
+    /*--FINAL DE INDUSTRIA--*/
 
 
 /*--FINAL DEL CONTENIDO--*/
