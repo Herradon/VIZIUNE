@@ -70,32 +70,6 @@ text-align: right;
 
 /*-----------FINAL DE SOBRE NOSOTROS-----------*/
 
-/*-----------COMIENZO DE HISTORIA-----------*/
-
-/*--COMIENZO DEL HEADER--*/
-
-#cnt-piezas {
-    display: flex;
-    padding-top: 3.5em;
-    height: 50%;
-    align-items: center;
-    justify-content: center;
-    }
-    
-    #cnt-piezas img {
-    width: 50%;
-    }
-    
-    #cnt-piezas .text-img {
-    height: 15em;
-    padding: 1em;
-    text-align: right;  
-    }
-
-/*--FINAL DEL HEADER--*/
-
-/*-----------FINAL DE HISTORIA-----------*/
-
 /*-----------COMIENZO DE PIEZAS-----------*/
 
 /*--COMIENZO DEL HEADER--*/
@@ -190,31 +164,59 @@ margin: 1em;
 
 /*--FINAL DE EQUIPO--*/
 
-/*--COMIENZO DE INDUSTRIA--*/
-
-#texto-ind {
-text-align: center;
-}
-
-#industria {
-display: flex;
-justify-content: center;
-width: 90%;
-margin: 0 auto;
-padding: 2rem;
-flex-wrap: wrap;
-gap: 2rem;
-    }
-    
-#industria img {
-width: 20%;
-margin: 1em;
-}
-    
-    /*--FINAL DE INDUSTRIA--*/
-
 
 /*--FINAL DEL CONTENIDO--*/
 
 /*-----------FINAL DE PIEZAS-----------*/
+
+/*-----------COMIENZO DE HISTORIA-----------*/
+
+/*--COMIENZO DEL HEADER--*/
+
+#cnt-piezas {
+    display: flex;
+    padding-top: 3.5em;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    #cnt-piezas img {
+    width: 50%;
+    }
+    
+    #cnt-piezas .text-img {
+    height: 15em;
+    padding: 1em;
+    text-align: right;  
+    }
+
+/*--FINAL DEL HEADER--*/
+
+/*--COMIENZO DE CONTENIDO--*/
+
+/*--COMIENZO DE INDUSTRIA--*/
+
+#texto-ind {
+    text-align: center;
+    }
+    
+    #industria {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+        }
+        
+    #industria img {
+    width: 20%;
+    margin: 1em;
+    }
+        
+/*--FINAL DE INDUSTRIA--*/
+
+/*-----------FINAL DE HISTORIA-----------*/
 
