@@ -200,23 +200,77 @@ margin: 1em;
 #texto-ind {
     text-align: center;
     }
-    
-    #industria {
-    display: flex;
-    justify-content: center;
-    width: 90%;
-    margin: 0 auto;
-    padding: 2rem;
-    flex-wrap: wrap;
-    gap: 2rem;
+
+#frentes {
+display: flex;
+justify-content: center;
+width: 90%;
+margin: 0 auto;
+padding: 2rem;
+flex-wrap: wrap;
+gap: 2rem;
+background-color:#cd3f3f;
+}
+#frentes img {
+width: 20%;
+margin: 1em;
         }
-        
-    #industria img {
-    width: 20%;
-    margin: 1em;
+
+#varillas {
+display: flex;
+justify-content: center;
+width: 90%;
+margin: 0 auto;
+padding: 2rem;
+flex-wrap: wrap;
+gap: 2rem;
+background-color:#cd3f3f;
+}
+
+#varillas img {
+width: 20%;
+margin: 1em;
+}
+    
+#terminales {
+display: flex;
+justify-content: center;
+width: 90%;
+margin: 0 auto;
+padding: 2rem;
+flex-wrap: wrap;
+gap: 2rem;
+background-color:#cd3f3f;
+}
+#terminales img {
+width: 20%;
+margin: 1em;
+}
+
+    .cargo1 {
+    display: flex;
+    flex-direction: column;
+text-align: center;
+    }
+
+    .cargo1 button {
+    width: 10%;
     }
         
 /*--FINAL DE INDUSTRIA--*/
+
+/*--COMIENZO DE FORMULARIO DE PAGO--*/
+
+#fecha-codigo {
+display: flex;
+}
+
+.form-floating {
+margin-left: 0.5em;
+margin-right: 0.5em;
+}
+
+/*--COMIENZO DE FORMULARIO DE PAGO--*/
 
 /*-----------FINAL DE HISTORIA-----------*/
 
