@@ -112,19 +112,21 @@ padding-right: 1em;
 padding-bottom: 1em;
 }
 
-.card1 {
+.card {
 width: 18rem;
+border: none;
+border-radius: none;
 }
 
-.card1 figure {
+.card figure {
 align-content: center;
-height: 10em;
+height: 100%;
 text-align: center;
-background-color: #cd3f3f;
+background-color: var(--color0);
 }
 
-.card figure img {
-width: 100%;
+.card figure .figure-img {
+width: 3em;
 }
 
 .frente {
