@@ -28,6 +28,12 @@ header {
 text-align: center;
 }
 
+body {
+  background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0), rgb(255, 255, 255));
+color: var(--color1);
+}
+
+
 .navbar {
 position: fixed;
 width: 100%;
@@ -47,10 +53,7 @@ margin-right: 2em;
 
 .navbar .collapse li a{
 color: var(--color1);
-}
-
-.navbar .collapse li a:hover{
-color: var(--color0);
+font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 #cnt-nosotros {
@@ -71,28 +74,11 @@ font-family:Georgia, 'Times New Roman', Times, serif;
 color: var(--color1);
 }
 
+
 #logo h1 {
-position: relative;
 font-size: 17em;
 font-family:Georgia, 'Times New Roman', Times, serif;
-color: var(--color0);
 }
-
-#logo h2 {
-    position: absolute;
-    font-size: 17em;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color: var(--color0);
-    }
-
-
-#logo h1:hover {
-opacity: 0;
-font-family: sans-serif;
-rotate: 180deg;
-transition-duration: 2s;
-color: var(--color1);
-    }
 
 #cnt-nosotros h2 {
 font-size: 3em;
@@ -103,6 +89,7 @@ text-align: left;
 color: var(--color1);
 }
 
+
 #cnt-nosotros img {
 width: 50%;
 }
@@ -111,6 +98,12 @@ width: 50%;
 height: 15em;
 padding: 1em;
 text-align: right; 
+}
+
+#img-portada {
+width: 46%;
+text-align: right;
+background-color: #cd3f3f;
 }
 
 /*--FINAL DEL HEADER--*/
@@ -159,6 +152,8 @@ padding-bottom: 1em;
 width: 18rem;
 border: none;
 border-radius: none;
+background: none;
+color: var(--color1);
 }
 
 .card figure {
@@ -167,10 +162,7 @@ height: 10em;
 text-align: center;
 }
 
-figure .figure-img {
-width: 12.5em;
 
-}
 
 .frente {
 display: flex;
@@ -342,6 +334,7 @@ padding-top: 2em;
 padding-bottom: 2em;
 width: 100%;
 height: 5em;
+color: var(--color3);
 }
 
 
