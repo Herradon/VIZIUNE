@@ -29,7 +29,7 @@ text-align: center;
 }
 
 body {
-  background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0), rgb(255, 255, 255));
+  background: linear-gradient(rgb(0, 0, 0), rgb(7, 52, 97), rgb(255, 255, 255));
 color: var(--color1);
 }
 
@@ -38,7 +38,7 @@ color: var(--color1);
 position: fixed;
 width: 100%;
 z-index: 1;
-background-color: var(--color3);
+background-color: rgb(0, 0, 0);
 }
 
 
@@ -61,7 +61,7 @@ display: flex;
 height: 100vh;
 align-items: center;
 justify-content: center;
-background-color: var(--color3);
+
 }
 
 
@@ -138,16 +138,6 @@ height: 20em;
 margin-top: -4em;
 }
 
-
-.card-body {
-width: 100%;
-text-align: left;
-padding-left: 1em;
-padding-right: 1em;
-padding-bottom: 1em;
-
-}
-
 .card {
 width: 18rem;
 border: none;
@@ -162,7 +152,37 @@ height: 10em;
 text-align: center;
 }
 
+.card-body {
+width: 100%;
+text-align: left;
+padding-left: 1em;
+padding-right: 1em;
+padding-bottom: 1em;
+}
 
+.card-body Button{
+background-color: var(--color1);
+color: var(--color3);
+border-radius: 5em;
+width: 6em;
+border: none;
+}
+
+.card-body Button:hover {
+background-color: var(--color0);
+}
+
+.offcanvas button{
+background-color: var(--color1);
+color: var(--color3);
+border-radius: 5em;
+width: 10m;
+border: none;
+}
+
+.offcanvas button:hover{
+background-color: var(--color0);
+}
 
 .frente {
 display: flex;
