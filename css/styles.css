@@ -44,7 +44,6 @@ color: var(--color1);
 position: fixed;
 width: 100%;
 z-index: 1;
-background-color: rgb(0, 0, 0);
 background-color:transparent;
 backdrop-filter: blur(35px);
 }
@@ -140,9 +139,8 @@ background-color: #cd3f3f;
 width: 100%;
 text-align: left;
 height: 20em;
-padding-right: 2em;
-padding-left: 2em;
 }
+
 
 .card {
 width: 22rem;
@@ -151,37 +149,42 @@ border-radius: none;
 background: none;
 background-color:transparent;
 backdrop-filter: blur(85px);
-border-style: solid;
-border-bottom-left-radius: 10%;
-border-bottom-right-radius: 10%;
-border-color: var(--color1);
 padding: 2em;
+border-radius: 50px;
 }
 
 .card figure {
 align-content: center;
-height: 10em;
 text-align: center;
 }
 
 .card-body {
 width: 100%;
-text-align: left;
+text-align: center;
+color: var(--color1);
 padding-left: 1em;
 padding-right: 1em;
 padding-bottom: 1em;
 }
 
+#doubleb {
+display: flex;
+}
+
 .card-body Button{
-background-color: var(--color1);
-color: var(--color3);
-border-radius: 5em;
-width: 6em;
+background-color:transparent, 20%;
+background: none;
+color: var(--color1);
+margin: 0.5em;
+width: 10em;
+border-radius: 20px;
 border: none;
 }
 
 .card-body Button:hover {
-background-color: var(--color0);
+border-style: solid;
+border-color: var(--color1);
+background: none;
 }
 
 .offcanvas button{
@@ -235,6 +238,14 @@ width: 100%;
 
 /*--COMIENZO DE EQUIPO--*/
 
+#completo-eq {
+    background-color:transparent;
+    backdrop-filter: blur(85px);
+    padding: 2em;
+    border-radius: 50px;
+    margin: 2em;
+}
+
 #texto-eq {
 margin-top: 2em;
 margin-bottom: 2em;
@@ -281,7 +292,7 @@ width: 50%;
 #cnt-piezas .text-img {
 height: 15em;
 padding: 1em;
-text-align: right;  
+text-align: right; 
 }
 
 /*--FINAL DEL HEADER--*/
