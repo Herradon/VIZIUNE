@@ -49,22 +49,6 @@ text-align: center;
       ) beige;--*/
 
 body {
-    background:
-    radial-gradient(
-      circle at 50% 0,
-      rgba(255, 0, 0, 0.5),
-      rgba(255, 0, 0, 0) 70.71%
-    ),
-    radial-gradient(
-      circle at 6.7% 75%,
-      rgba(0, 0, 255, 0.5),
-      rgba(0, 0, 255, 0) 70.71%
-    ),
-    radial-gradient(
-        circle at 93.3% 75%,
-        rgba(0, 255, 0, 0.5),
-        rgba(0, 255, 0, 0) 70.71%
-      ) beige;
 border-radius: 50%;
 min-height: 500px;
 background-attachment: fixed;
@@ -79,7 +63,7 @@ color: var(--color1);
 position: fixed;
 width: 100%;
 z-index: 1;
-background-color:transparent;
+background-color:none;
 backdrop-filter: blur(35px);
 }
 
@@ -94,7 +78,7 @@ margin-right: 2em;
 }
 
 .navbar .collapse li a{
-color: var(--color1);
+color: var(--color3);
 font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -110,11 +94,12 @@ font-size: 5em;
 text-align: left;
 margin-bottom: -0.8em;
 font-family:Georgia, 'Times New Roman', Times, serif;
-color: var(--color1);
+color: var(--color3);
 }
 
 
 #logo h1 {
+color: var(--color3);
 font-size: 17em;
 font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -125,7 +110,7 @@ font-family:'Times New Roman', Times, serif;
 width: 7em;
 height: 50%;
 text-align: left;
-color: var(--color1);
+color: var(--color3);
 }
 
 
@@ -144,6 +129,8 @@ width: 46%;
 text-align: right;
 background-color: #cd3f3f;
 }
+
+
 
 /*--FINAL DEL HEADER--*/
 
@@ -189,9 +176,6 @@ margin-bottom: 2em;
 width: 22rem;
 border: none;
 background-color:transparent;
-backdrop-filter: blur(85px);
-padding: 2em;
-border-radius: 50px;
 }
 
 .card figure {  
@@ -202,19 +186,16 @@ text-align: center;
 .card-body {
 width: 100%;
 text-align: center;
-color: var(--color1);
+color: var(--color3);
 padding-left: 1em;
 padding-right: 1em;
 padding-bottom: 1em;
 }
 
-#doubleb {
-display: flex;
-}
 
 .card-body Button{
 background: none;
-color: var(--color1);
+color: var(--color3);
 margin: 0.5em;
 width: 10em;
 border-radius: 20px;
@@ -398,18 +379,13 @@ margin: 1em;
 
 /*--COMIENZO DE FORMULARIO DE PAGO--*/
 
-.offcanvas { 
-background-color:transparent;
-backdrop-filter: blur(85px);
-}
-
 .offcanvas h5 { 
-color: var(--color1);
+color: var(--color3);
 }
 
 .offcanvas .btn { 
 background: none;
-color: var(--color1);
+color: var(--color3);
 margin: 0.5em;
 width: 10em;
 border-radius: 20px;
@@ -418,7 +394,7 @@ border: none;
 
 .offcanvas .btn:hover { 
 border-style: solid;
-border-color: var(--color1);
+border-color: var(--color3);
 background: none;
 }
 
@@ -442,23 +418,21 @@ display: flex;
 }
 
 .form-floating {
-margin-left: 0.5em;
-margin-right: 0.5em;
+margin-right: 1em;
 }
 
 .form-floating #floatingInput {
     background: none;
-    color: var(--color1);
     margin: 0.5em;
     border-radius: 20px;
     border-style: solid;
-    border-color: var(--color1);
+    border-color: var(--color3);
 }
 
 .form-floating label {
-color: var(--color1); 
+color: var(--color3);
+padding-left: 2em;
 }
-
 
 
 /*--COMIENZO DE FORMULARIO DE PAGO--*/
@@ -471,12 +445,11 @@ padding-top: 2em;
 padding-bottom: 2em;
 width: 100%;
 height: 5em;
-backdrop-filter: blur(85px);
-padding: 2em;
+background: none;
 }
 
 footer p {
-    color: var(--color1);
+    color: var(--color3);
 }
 
 

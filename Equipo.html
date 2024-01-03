@@ -31,6 +31,7 @@
                 <a class="nav-link" href="tienda.html">Nuestra tienda</a>
               </li>
             </ul>
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Ir al carrito</button>
           </div>
         </div>
       </nav>
@@ -39,6 +40,7 @@
 
         <div id="logo">
 
+          
           <h3>Viziune</h3>
           <h1>VZ</h1>
           
@@ -50,16 +52,10 @@
 
             </div>
           </div>
-   
-          
   
       </div>
 
-
-    
-
 </div>
-
 
 </header>
 
@@ -153,6 +149,65 @@
       <!--FINAL DEL EQUIPO-->
 
 </body>
+
+<!--COMIENZO DEL FORMILARIO CANVAS-->
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Carrito</h5>
+    
+    
+    
+    
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Seguir comprando</button>
+  </div>
+  <div class="offcanvas-body">
+
+    <div id="documentacion">
+    
+        <div class="form-floating mb-3">
+          <input type="nombre" class="form-control" id="floatingInput" placeholder="">
+          <label for="floatingInput">Nombre</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input type="nombre" class="form-control" id="floatingInput" placeholder="">
+          <label for="floatingInput">Apellidos</label>
+        </div>
+
+        <br>
+
+        <div class="form-floating mb-3">
+          <input type="Documento" class="form-control" id="floatingInput" placeholder="">
+          <label for="floatingInput">Documento de identidad</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input type="Documento" class="form-control" id="floatingInput" placeholder="">
+          <label for="floatingInput">Número de tarjeta</label>
+        </div>
+
+    </div>
+
+    <div id="fecha-codigo">
+
+      <div class="form-floating mb">
+        <input type="Documento" class="form-control" id="floatingInput" placeholder="">
+        <label for="floatingInput">Código</label>
+      </div>
+  
+      <div class="form-floating mb">
+        <input type="Documento" class="form-control" id="floatingInput" placeholder="">
+        <label for="floatingInput">Caducidad</label>
+      </div>
+
+    </div>
+    
+
+  </div>
+</div>
+
+<!--FINAL DEL FORMILARIO CAMVAS-->
 
 <footer>
 
