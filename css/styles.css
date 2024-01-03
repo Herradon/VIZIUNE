@@ -72,6 +72,13 @@ backdrop-filter: blur(35px);
 justify-content: center;
 }
 
+.navbar .collapse .btn {
+background: none;
+color: var(--color3);
+border: none;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
 .navbar .collapse li{
 margin-left: 2em;
 margin-right: 2em;
@@ -164,14 +171,6 @@ height: 25em;
 margin-bottom: 2em;
 
 }
-
-
-
-.carousel1 {
-
-}
-
-
 .card {
 width: 22rem;
 border: none;
