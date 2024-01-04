@@ -1,8 +1,3 @@
-// Variables
-
-const collapseElementList = document.querySelectorAll('.collapse')
-const collapseList = [...collapseElementList].map(collapseEl => new bootstrap.Collapse(collapseEl))
-
 //pago
 
 const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
@@ -25,13 +20,14 @@ if (alertTrigger) {
   })
 }
 
-// ANIMATED BOX
+// ANIMATED BOX 1-- 
 
 document.addEventListener("DOMContentLoaded", function() {
   var animatedBox = document.getElementById("animatedBox");
 
   window.addEventListener("scroll", function() {
       var scrollPosition = window.scrollY;
+      console.log(scrollPosition);
 
       // Define la posición en la que deseas activar la animación
       var triggerPosition = 300;
@@ -43,4 +39,5 @@ document.addEventListener("DOMContentLoaded", function() {
       }
   });
 });
+
 

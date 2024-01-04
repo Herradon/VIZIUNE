@@ -342,8 +342,6 @@ border-radius: 10px;
 text-align: right;
 display: flex;
 margin: 1em;
-opacity: 0; 
-transition: opacity 0.5s ease-in-out;
 }
 
 #equipo .card1 h3{
@@ -367,8 +365,6 @@ border-radius: 10px;
 text-align: right;
 display: flex;
 margin: 1em;
-opacity: 0; 
-transition: opacity 0.5s ease-in-out;
 }
 
 #equipo .card2 h3{
@@ -391,8 +387,6 @@ border-radius: 10px;
 text-align: right;
 display: flex;
 margin: 1em;
-opacity: 0; 
-transition: opacity 0.5s ease-in-out;
 }
 
 #equipo .card3 h3{
@@ -415,8 +409,6 @@ border-radius: 10px;
 text-align: right;
 display: flex;
 margin: 1em;
-opacity: 0; 
-transition: opacity 0.5s ease-in-out;
 }
 
 #equipo .card4 h3{
