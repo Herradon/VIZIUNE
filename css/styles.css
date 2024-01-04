@@ -14,6 +14,7 @@
     --color3: #000000;
     --color4:#FF7A59;
     --color5: #cd3f3f;
+    --color6:  rgb(67, 75, 183);
 }
 
 /*-----------COMIENZO DE SOBRE NOSOTROS-----------*/
@@ -49,7 +50,7 @@ text-align: center;
       ) beige;--*/
 
 body {
-background-color: var(--color1);
+ background-color: var(--color1);
 border-radius: 50%;
 min-height: 500px;
 background-attachment: fixed;
@@ -154,15 +155,14 @@ width: 40%;
 margin: 2em;
 }
 
-#mi-style {
+#my-style {
 padding-top: 3em;
-background-color: var(--color1);
 display: flex;
 justify-content: center;
 width: 100%;
 }
 
-#mi-style .card1 {
+#my-style .card1 {
 width: 40%;
 height: 38em;
 margin: 2em;
@@ -172,14 +172,14 @@ border-radius: 10px;
 }
 
 
-#mi-style .card1 h1 {
-color: var(--color1);
+#my-style .card1 h1 {
+color: var(--color3);
 margin-top: 1em;
 margin-bottom: 0.3em;
 }
 
-#mi-style .card1 h3 {
-color: var(--color1);
+#my-style .card1 h3 {
+color: var(--color3);
 }
 
 #text-tfg {
@@ -192,8 +192,16 @@ margin-top: 1em;
 width: 40em;
 height: 12em;
 border-style: solid;
+border-radius: 10px;
 }
 
+#text-tfg .card h2{
+color: var(--color3);
+}
+
+#text-tfg .card p{
+    color: var(--color3);
+    }
 /*--FINAL CONTENIDO--*/
 
 
@@ -229,9 +237,9 @@ margin-bottom: 2em;
 
 .card {
 width: 22rem;
-border: none;
-background-color: transparent;
-backdrop-filter: blur(85px);
+border-style: solid;
+border-color: var(--color3);
+border-radius: 20px;
 }
 
 .card figure {  
@@ -316,33 +324,102 @@ width: 100%;
 
 /*--COMIENZO DE EQUIPO--*/
 
-#completo-eq {
-    padding: 1em;
-    border-radius: 50px;
-    margin: 2em;
-    background-color:transparent;
-    backdrop-filter: blur(85px);
-}
-
-#texto-eq {
-margin-top: 2em;
-margin-bottom: 2em;
-text-align: center;
-}
-
-
 #equipo {
 display: flex;
-justify-content: center;
-margin-top: 2em;
-margin-bottom: 2em;
+align-items: center;
+margin-top: 1em;
+width: 100%;
 }
 
-    
-#equipo  img {
-width: 20%;
+#equipo .card1 {
+margin-top: 1em;
+width: 70%;
+height: 30em;
+border-style: solid;
+border-color: var(--color3);
+border-radius: 10px;
+text-align: right;
+display: flex;
 margin: 1em;
 }
+
+#equipo .card1 h3{
+margin-bottom: 0.5em;
+}
+
+
+#equipo .card1 img {
+width: 80%;
+border: none;
+margin-bottom: 1em;
+}
+
+#equipo .card2 {
+margin-top: 1em;
+width: 70%;
+height: 30em;
+border-style: solid;
+border-color: var(--color3);
+border-radius: 10px;
+text-align: right;
+display: flex;
+margin: 1em;
+}
+
+#equipo .card2 h3{
+margin-bottom: 0.5em;
+}
+
+#equipo .card2 img {
+width: 80%;
+border: none;
+margin-bottom: 1em;
+}
+
+#equipo .card3 {
+margin-top: 1em;
+width: 70%;
+height: 30em;
+border-style: solid;
+border-color: var(--color3);
+border-radius: 10px;
+text-align: right;
+display: flex;
+margin: 1em;
+}
+
+#equipo .card3 h3{
+margin-bottom: 0.5em;
+}
+
+#equipo .card3 img {
+width: 80%;
+border: none;
+margin-bottom: 1em;
+}
+
+#equipo .card4 {
+margin-top: 1em;
+width: 70%;
+height: 30em;
+border-style: solid;
+border-color: var(--color3);
+border-radius: 10px;
+text-align: right;
+display: flex;
+margin: 1em;
+}
+
+#equipo .card4 h3{
+margin-bottom: 0.5em;
+}
+
+#equipo .card4 img {
+width: 80%;
+border: none;
+margin-bottom: 1em;
+}
+
 
 /*--FINAL DE EQUIPO--*/
 

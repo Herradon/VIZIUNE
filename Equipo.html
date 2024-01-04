@@ -124,29 +124,46 @@
 
       <!--COMIENZO DEL EQUIPO-->
 
-      <div id="completo-eq">
+      
+          
+         <div id="equipo">
+   
+           <div class="card1">
+             <div class="card-body">
+              <img src="img/impresora 3D.png" class="img-fluid" alt="...">
+              <h3 class="card-title">Impresora 3D</h3>
+              <p class="card-text">con la preocupación por el medio ambiente. Existe una creciente demanda de productos sostenibles, por lo que crear unas gafas biodegradables y por piezas puede satisfacer esa demanda que está empezando en el mercado y en su mismo sector.</p>
+            </div>
+           </div>
 
-          <div id="texto-eq">
+           
+   
+           <div class="card2">
+             <div class="card-body">
+              <img src="img/resina_bio.png" class="img-fluid" alt="...">
+               <h3 class="card-title">Bote de resina</h3>
+               <p class="card-text">la intención está en evitar los convencionalismos ya que muchas gafas hoy en día están hechas de plásticos no biodegradables que contribuyen a la acumulación de residuos.</p>
+              </div>
+           </div>
+   
+           <div class="card3">
+             <div class="card-body">
+              <img src="img/eopximp.png" class="img-fluid" alt="...">
+               <h3 class="card-title">Bote de imprimación</h3>
+               <p class="card-text">con la preocupación por el medio ambiente. Existe una creciente demanda de productos sostenibles, por lo que crear unas gafas biodegradables y por piezas puede satisfacer esa demanda que está empezando en el mercado y en su mismo sector.</p>
+              </div>
+           </div>  
 
-            <h2>Siempre trabajamos con lo mejor</h2>
-            <p>Tenemos equipos de de impresión 3D, equipo de imprimación biodegradable y contamos con la mejor resina biodegradable del 
-              mercado.</p>
-
-          </div>
-
-          <div id="equipo">
-
-              <img src="img/impresora 3D.png" class="figure-img img-fluid" alt="...">
-
-              <img src="img/equipos 3D.png" class="figure-img img-fluid" alt="...">
-
-              <img src="img/eopximp.png" class="figure-img img-fluid" alt="...">
-
-              <img src="img/resina_bio.png" class="figure-img img-fluid" alt="...">
-
-          </div>
-
-      </div>
+           <div class="card4">
+            <div class="card-body">
+              <img src="img/equipos 3D.png" class="img-fluid" alt="...">
+              <h3 class="card-title">Paquete modelado</h3>
+              <p class="card-text">con la preocupación por el medio ambiente. Existe una creciente demanda de productos sostenibles, por lo que crear unas gafas biodegradables y por piezas puede satisfacer esa demanda que está empezando en el mercado y en su mismo sector.</p>
+            </div>
+          </div> 
+   
+       </div>
+     
 
       <!--FINAL DEL EQUIPO-->
 
@@ -163,53 +180,72 @@
     
   <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Seguir comprando</button>
   </div>
+
+  <aside class="col-sm-4">
+    <!-- Elementos del carrito -->
+    <ul id="carrito" class="list-group"></ul>
+    <hr>
+    <!-- Precio total -->
+    <p class="text-right">Total: <span id="total"></span>&euro;</p>
+    <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+</aside>
+
   <div class="offcanvas-body">
 
-    <div id="documentacion">
+    <p class="d-inline-flex gap-1">
+      <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Tramitar pago
+      </a>
+    </p>
+
+    <div class="collapse" id="collapseExample">
+      <div class="card-body">
+        <div id="documentacion">
     
-        <div class="form-floating mb-3">
-          <input type="nombre" class="form-control" id="floatingInput" placeholder="">
-          <label for="floatingInput">Nombre</label>
-        </div>
-
-        <div class="form-floating mb-3">
-          <input type="nombre" class="form-control" id="floatingInput" placeholder="">
-          <label for="floatingInput">Apellidos</label>
-        </div>
-
-        <br>
-
-        <div class="form-floating mb-3">
-          <input type="Documento" class="form-control" id="floatingInput" placeholder="">
-          <label for="floatingInput">Documento de identidad</label>
-        </div>
-
-        <div class="form-floating mb-3">
-          <input type="Documento" class="form-control" id="floatingInput" placeholder="">
-          <label for="floatingInput">Número de tarjeta</label>
-        </div>
-
-    </div>
-
-    <div id="fecha-codigo">
-
-      <div class="form-floating mb">
-        <input type="Documento" class="form-control" id="floatingInput" placeholder="">
-        <label for="floatingInput">Código</label>
+          <div class="form-floating mb-3">
+            <input type="nombre" class="form-control" id="floatingInput" placeholder="">
+            <label for="floatingInput">Nombre</label>
+          </div>
+  
+          <div class="form-floating mb-3">
+            <input type="nombre" class="form-control" id="floatingInput" placeholder="">
+            <label for="floatingInput">Apellidos</label>
+          </div>
+  
+          <br>
+  
+          <div class="form-floating mb-3">
+            <input type="Documento" class="form-control" id="floatingInput" placeholder="">
+            <label for="floatingInput">Documento de identidad</label>
+          </div>
+  
+          <div class="form-floating mb-3">
+            <input type="Documento" class="form-control" id="floatingInput" placeholder="">
+            <label for="floatingInput">Número de tarjeta</label>
+          </div>
+  
       </div>
   
-      <div class="form-floating mb">
-        <input type="Documento" class="form-control" id="floatingInput" placeholder="">
-        <label for="floatingInput">Caducidad</label>
-      </div>
-
-    </div>
+      <div id="fecha-codigo">
+  
+        <div class="form-floating mb">
+          <input type="Documento" class="form-control" id="floatingInput" placeholder="">
+          <label for="floatingInput">Código</label>
+        </div>
     
-
+        <div class="form-floating mb">
+          <input type="Documento" class="form-control" id="floatingInput" placeholder="">
+          <label for="floatingInput">Caducidad</label>
+        </div>
+  
+      </div>
+      </div>
+    </div>
   </div>
 </div>
 
 <!--FINAL DEL FORMILARIO CAMVAS-->
+
 
 <footer>
 

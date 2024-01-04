@@ -313,49 +313,71 @@
     
   <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Seguir comprando</button>
   </div>
+
+  <aside class="col-sm-4">
+    <!-- Elementos del carrito -->
+    <ul id="carrito" class="list-group"></ul>
+    <hr>
+    <!-- Precio total -->
+    <p class="text-right">Total: <span id="total"></span>&euro;</p>
+    <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+</aside>
+
   <div class="offcanvas-body">
 
-    <div id="documentacion">
+    <p class="d-inline-flex gap-1">
+      <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Tramitar pago
+      </a>
+    </p>
+
+    <div class="collapse" id="collapseExample">
+      <div class="card-body">
+        <div id="documentacion">
     
-        <div class="form-floating mb-3">
-          <input type="nombre" class="form-control" id="floatingInput" placeholder="">
-          <label for="floatingInput">Nombre</label>
-        </div>
-
-        <div class="form-floating mb-3">
-          <input type="nombre" class="form-control" id="floatingInput" placeholder="">
-          <label for="floatingInput">Apellidos</label>
-        </div>
-
-        <br>
-
-        <div class="form-floating mb-3">
-          <input type="Documento" class="form-control" id="floatingInput" placeholder="">
-          <label for="floatingInput">Documento de identidad</label>
-        </div>
-
-        <div class="form-floating mb-3">
-          <input type="Documento" class="form-control" id="floatingInput" placeholder="">
-          <label for="floatingInput">Número de tarjeta</label>
-        </div>
-
-    </div>
-
-    <div id="fecha-codigo">
-
-      <div class="form-floating mb">
-        <input type="Documento" class="form-control" id="floatingInput" placeholder="">
-        <label for="floatingInput">Código</label>
+          <div class="form-floating mb-3">
+            <input type="nombre" class="form-control" id="floatingInput" placeholder="">
+            <label for="floatingInput">Nombre</label>
+          </div>
+  
+          <div class="form-floating mb-3">
+            <input type="nombre" class="form-control" id="floatingInput" placeholder="">
+            <label for="floatingInput">Apellidos</label>
+          </div>
+  
+          <br>
+  
+          <div class="form-floating mb-3">
+            <input type="Documento" class="form-control" id="floatingInput" placeholder="">
+            <label for="floatingInput">Documento de identidad</label>
+          </div>
+  
+          <div class="form-floating mb-3">
+            <input type="Documento" class="form-control" id="floatingInput" placeholder="">
+            <label for="floatingInput">Número de tarjeta</label>
+          </div>
+  
       </div>
   
-      <div class="form-floating mb">
-        <input type="Documento" class="form-control" id="floatingInput" placeholder="">
-        <label for="floatingInput">Caducidad</label>
+      <div id="fecha-codigo">
+  
+        <div class="form-floating mb">
+          <input type="Documento" class="form-control" id="floatingInput" placeholder="">
+          <label for="floatingInput">Código</label>
+        </div>
+    
+        <div class="form-floating mb">
+          <input type="Documento" class="form-control" id="floatingInput" placeholder="">
+          <label for="floatingInput">Caducidad</label>
+        </div>
+        
       </div>
 
-    </div>
-    
+      <div id="liveAlertPlaceholder"></div>
+      <button type="button" class="btn btn-primary" id="liveAlertBtn">Pagar</button>
 
+      </div>
+    </div>
   </div>
 </div>
 
