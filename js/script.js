@@ -25,3 +25,22 @@ if (alertTrigger) {
   })
 }
 
+// ANIMATED BOX
+
+document.addEventListener("DOMContentLoaded", function() {
+  var animatedBox = document.getElementById("animatedBox");
+
+  window.addEventListener("scroll", function() {
+      var scrollPosition = window.scrollY;
+
+      // Define la posición en la que deseas activar la animación
+      var triggerPosition = 300;
+
+      if (scrollPosition > triggerPosition) {
+          animatedBox.style.opacity = "1"; // Hace visible la caja
+      } else {
+          animatedBox.style.opacity = "0"; // Mantiene la caja transparente
+      }
+  });
+});
+
