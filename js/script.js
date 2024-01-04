@@ -30,12 +30,13 @@ document.addEventListener("DOMContentLoaded", function() {
       console.log(scrollPosition);
 
       // Define la posición en la que deseas activar la animación
-      var triggerPosition = 300;
+      var triggerPosition = 500;
 
       if (scrollPosition > triggerPosition) {
-          animatedBox.style.opacity = "1"; // Hace visible la caja
-      } else {
-          animatedBox.style.opacity = "0"; // Mantiene la caja transparente
+          animatedBox.style.opacity = "1";
+      } 
+      else {
+          animatedBox.style.opacity = "0"; 
       }
   });
 });

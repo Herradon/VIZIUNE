@@ -160,6 +160,7 @@ padding-top: 3em;
 display: flex;
 justify-content: center;
 width: 100%;
+height: 100vh;
 }
 
 #my-style .card1 {
@@ -329,8 +330,11 @@ display: flex;
 align-items: center;
 margin-top: 1em;
 width: 100%;
-height: 40em;
+height: 100vh;
 }
+
+/*opacity: 0; --> Inicialmente transparente.
+transition: opacity 0.5s ease-in-out; --> Agrega transición de opacidad */
 
 #equipo .card1 {
 margin-top: 1em;
@@ -595,4 +599,8 @@ footer p {
 /*--FINAL DEL FOOTER--*/
 
 /*-----------FINAL DE HISTORIA-----------*/
+/*-----------COMIENZO RESPONSIVE---------*/
 
+
+
+/*-----------COMIENZO RESPONSIVE---------*/
