@@ -693,6 +693,94 @@ border-radius: 10px;
 }
 
 @media (max-width: 430px) {
+
+
+/*--COMIENZO SOBRE NOSOTROS--*/
+  
+#cnt-nosotros {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    #my-style {
+    padding-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 3em;
+    }
+    
+    #my-style .card1 {
+    width: 20em;
+    height: 100%;
+    padding-bottom: 0.5em;
+    background-size: cover;
+    background-image: url(../img/Alejandro.jpg);
+    border-radius: 10px;
+    }
+
+    #text-tfg .card {
+        margin-top: 1em;
+        width: 25em;
+        height: 16em;
+        border-style: solid;
+        border-radius: 10px;
+        }
+    
+    /*--FINAL SOBRE NOSOTROS--*/
+    
+    /*--COMIENZO DE EQUIPO--*/
+    
+    .frente {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        }
+        
+        .frente figure img {
+        width: 50%;
+        
+        }
+        
+        .varillas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-left: 1em;
+        }
+        
+        .varillas figure img {
+        width: 50%;
+        
+        }
+        .terminales {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-left: 1em;
+        }
+        
+        .terminales figure img {
+        width: 50%;
+        }
+    
+        #equipo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1em;
+        width: 100%;
+        height: 50%;
+        }
+
     
 }
 
