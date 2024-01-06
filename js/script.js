@@ -20,6 +20,8 @@ if (alertTrigger) {
   })
 }
 
+
+
 // ANIMATED BOX 1-- 
 
 document.addEventListener("DOMContentLoaded", function() {

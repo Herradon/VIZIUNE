@@ -359,6 +359,11 @@ border: none;
 margin-bottom: 1em;
 }
 
+#equipo .card1 a {
+color: var(--color3);
+text-decoration: none;
+}
+
 #equipo .card2 {
 margin-top: 1em;
 width: 70%;
@@ -379,6 +384,11 @@ margin-bottom: 0.5em;
 width: 80%;
 border: none;
 margin-bottom: 1em;
+}
+
+#equipo .card2 a {
+color: var(--color3);
+text-decoration: none;
 }
 
 #equipo .card3 {
@@ -403,6 +413,11 @@ border: none;
 margin-bottom: 1em;
 }
 
+#equipo .card3 a {
+color: var(--color3);
+text-decoration: none;
+}
+
 #equipo .card4 {
 margin-top: 1em;
 width: 70%;
@@ -423,6 +438,13 @@ margin-bottom: 0.5em;
 width: 80%;
 border: none;
 margin-bottom: 1em;
+}
+
+#equipo .card4 a {
+color: var(--color3);
+text-decoration: none;
+border-right: solid;
+padding: 0.5em;
 }
 
 
@@ -778,7 +800,7 @@ border-radius: 10px;
         align-items: center;
         margin-top: 1em;
         width: 100%;
-        height: 50%;
+        height: 60%;
         }
 
     
