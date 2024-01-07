@@ -49,9 +49,23 @@ text-align: center;
         rgba(0, 255, 0, 0) 70.71%
       ) beige;--*/
 
+
 body {
- background-color: var(--color1);
-border-radius: 50%;
+background:
+radial-gradient(
+circle at 50% 0,
+rgba(43, 158, 215, 0.5),
+rgba(255, 0, 0, 0) 70.71%),
+radial-gradient(
+circle at 6.7% 75%,
+rgba(58, 58, 219, 0.5),
+rgba(0, 0, 255, 0) 70.71%
+),
+    radial-gradient(
+        circle at 93.3% 75%,
+        rgba(22, 64, 106, 0.5),
+        rgba(0, 255, 0, 0) 70.71%
+      ) beige;
 min-height: 500px;
 background-attachment: fixed;
 background-position: center;
@@ -192,8 +206,8 @@ margin-top: 1em;
 margin-top: 1em;
 width: 40em;
 height: 12em;
-border-style: solid;
-border-radius: 10px;
+background: none;
+border:none;
 }
 
 #text-tfg .card h2{
@@ -228,6 +242,7 @@ color: var(--color3);
 
 /*--COMIENZO DE CONTENIDO TRIPLE--*/
 
+
 .carousel-item {
 width: 95%;
 margin-left: 2em;
@@ -236,11 +251,11 @@ height: 22em;
 margin-bottom: 2em;
 }
 
-.card {
+#compra .card {
 width: 25rem;
-border-style: solid;
-border-color: var(--color3);
-border-radius: 20px;
+background: none;
+border-radius: 50px;
+border:none
 }
 
 .card figure {  
@@ -259,7 +274,7 @@ padding-bottom: 1em;
 
 
 .card-body Button{
-background-color: var(--color1);
+background:none;
 color: var(--color3);
 border-radius: 5em;
 width: 10m;
@@ -268,10 +283,12 @@ border: none;
 
 .card-body Button:hover {
 color: var(--color3);
-background-color: var(--color1);
-border-style: solid;
-border-color: var(--color3);
+background:none;
+}
 
+.card a {
+text-decoration: none;
+color: var(--color3);
 }
 
 .offcanvas button{
@@ -295,7 +312,10 @@ padding-left: 1em;
 
 .frente figure img {
 width: 100%;
+}
 
+.frente figure img:hover {
+width: 50%;
 }
 
 .varillas {
@@ -339,13 +359,13 @@ transition: opacity 0.5s ease-in-out; --> Agrega transición de opacidad */
 #equipo .card1 {
 margin-top: 1em;
 width: 70%;
-height: 30em;
-border-style: solid;
-border-color: var(--color3);
+height: 35em;
 border-radius: 10px;
 text-align: right;
 display: flex;
 margin: 1em;
+background: none;
+
 }
 
 #equipo .card1 h3{
@@ -367,13 +387,13 @@ text-decoration: none;
 #equipo .card2 {
 margin-top: 1em;
 width: 70%;
-height: 30em;
-border-style: solid;
-border-color: var(--color3);
+height: 35em;
 border-radius: 10px;
 text-align: right;
 display: flex;
 margin: 1em;
+background: none;
+
 }
 
 #equipo .card2 h3{
@@ -394,13 +414,13 @@ text-decoration: none;
 #equipo .card3 {
 margin-top: 1em;
 width: 70%;
-height: 30em;
-border-style: solid;
-border-color: var(--color3);
+height: 35em;
 border-radius: 10px;
 text-align: right;
 display: flex;
 margin: 1em;
+background: none;
+
 }
 
 #equipo .card3 h3{
@@ -421,13 +441,12 @@ text-decoration: none;
 #equipo .card4 {
 margin-top: 1em;
 width: 70%;
-height: 30em;
-border-style: solid;
-border-color: var(--color3);
+height: 35em;
 border-radius: 10px;
 text-align: right;
 display: flex;
 margin: 1em;
+background: none;
 }
 
 #equipo .card4 h3{
@@ -443,7 +462,6 @@ margin-bottom: 1em;
 #equipo .card4 a {
 color: var(--color3);
 text-decoration: none;
-border-right: solid;
 padding: 0.5em;
 }
 
