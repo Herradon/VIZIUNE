@@ -8,13 +8,10 @@
 }
 
 :root {
-    --color0:  rgb(49, 191, 68);
-    --color1: #ffffff;
-    --color2: #e0e0e0;
-    --color3: #000000;
-    --color4:#FF7A59;
-    --color5: #cd3f3f;
-    --color6:  rgb(67, 75, 183);
+    --color1: #FFFFFF;
+    --color2: #00A561;
+    --color3: #047863;
+    --color4:#15373E;
 }
 
 /*-----------COMIENZO DE SOBRE NOSOTROS-----------*/
@@ -51,21 +48,7 @@ text-align: center;
 
 
 body {
-background:
-radial-gradient(
-circle at 50% 0,
-rgba(43, 158, 215, 0.5),
-rgba(255, 0, 0, 0) 70.71%),
-radial-gradient(
-circle at 6.7% 75%,
-rgba(58, 58, 219, 0.5),
-rgba(0, 0, 255, 0) 70.71%
-),
-    radial-gradient(
-        circle at 93.3% 75%,
-        rgba(22, 64, 106, 0.5),
-        rgba(0, 255, 0, 0) 70.71%
-      ) beige;
+background-color: var(--color4);
 min-height: 500px;
 background-attachment: fixed;
 background-position: center;
@@ -112,33 +95,12 @@ align-items: center;
 justify-content: center;
 }
 
-#logo h3 {
-font-size: 5em;
-text-align: left;
-margin-bottom: -0.8em;
-font-family:Georgia, 'Times New Roman', Times, serif;
-color: var(--color3);
-}
-
-
-#logo h1 {
-color: var(--color3);
-font-size: 17em;
-font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-#cnt-nosotros h2 {
-font-size: 3em;
-font-family:'Times New Roman', Times, serif;
-width: 7em;
-height: 50%;
-text-align: left;
-color: var(--color3);
-}
-
 
 #cnt-nosotros img {
 width: 50%;
+margin-bottom: -0.8em;
+font-family:Georgia, 'Times New Roman', Times, serif;
+color: var(--color3);
 }
 
 #cnt-nosotros .text-img {
@@ -147,13 +109,115 @@ padding: 1em;
 text-align: right; 
 }
 
-#img-portada {
-width: 46%;
-text-align: right;
-background-color: #3f1919;
+/*--COMIENZO DE CARDS DE INICIO--*/
+
+#intro-cards {
+display: flex;
+justify-content: center;
+justify-content:space-around;
 }
 
 
+#intro-cards .card {
+background-color: var(--color2);
+width: 30%;
+height: 12rem;
+border-radius: 2em;
+}
+
+#intro-cards .card .card-body {
+padding: 2em;
+}
+
+#intro-cards .card .card-body h5 {
+color: var(--color1);
+}
+
+
+#intro-cards .card .card-body p {
+color: var(--color1);
+}
+
+#intro-cards .card .card-body a {
+color: var(--color1);
+background-color: var(--color4);
+border: none;
+border-radius: 10em;
+}
+
+
+/*--FINAL DE CARDS DE INICIO--*/
+
+/*--COMIENZO DE CONTENIDO INFORMATIVO--*/
+
+#all-containers {
+margin-top: 2em;
+margin-bottom: 2em;
+text-align: center;
+display: flex;
+}
+
+#all-containers .first {
+margin-top: 1em;
+margin-bottom: 1em;
+width: 50%;
+height: 43em;
+display: flex;
+}
+
+#all-containers .first .card {
+height: 41em;
+background-color: var(--color2);
+margin: 1em;
+border-radius: 2em;
+}
+
+#all-containers .first .card h5 {
+color: var(--color1);
+}
+
+#all-containers .first .card p {
+color: var(--color1);
+}
+    
+#all-containers .first .card a {
+color: var(--color1);
+background-color: var(--color4);
+border: none;
+border-radius: 10em;
+}
+
+#all-containers .second {
+margin-top: 1em;
+margin-bottom: 1em;
+width: 50%;
+height: 43em;
+}
+
+#all-containers .second .card {
+height: 20em;
+background-color: var(--color2);
+margin: 1em;
+border-radius: 2em;
+}
+
+#all-containers .second .card h5 {
+color: var(--color1);
+}
+
+#all-containers .second .card p {
+color: var(--color1);
+}
+    
+#all-containers .second .card a {
+color: var(--color1);
+background-color: var(--color4);
+border: none;
+border-radius: 10em;
+}
+
+
+/*--FINAL DE CONTENIDO INFORMATIVO--*/
 
 /*--FINAL DEL HEADER--*/
 
