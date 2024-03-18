@@ -109,6 +109,8 @@ padding: 1em;
 text-align: right; 
 }
 
+/*--FINAL DEL HEADER--*/
+
 /*--COMIENZO DE CARDS DE INICIO--*/
 
 #intro-cards {
@@ -142,225 +144,115 @@ color: var(--color1);
 color: var(--color1);
 background-color: var(--color4);
 border: none;
-border-radius: 10em;
+border-radius: 50px;
 }
 
 
 /*--FINAL DE CARDS DE INICIO--*/
 
-/*--COMIENZO DE CONTENIDO INFORMATIVO--*/
+/*--COMIENZO DE CREACIÓN--*/
 
-#all-containers {
+#creacion {
+width: 96%;
+height: 37rem;
 margin-top: 2em;
-margin-bottom: 0.5em;
-text-align: center;
-display: flex;
-}
+margin-left: 2em;
+margin-right: 2em;
 
-#all-containers .first {
-margin-top: 1em;
-margin-bottom: 1em;
-width: 50%;
-height: 43em;
-}
-
-#all-containers .first .card {
-height: 20em;
-background-color: var(--color2);
-margin-bottom: 1em;
-margin-top: 1em;
-margin-left: 1em;
-border-radius: 2em;
-}
-
-#all-containers .first .card h5 {
-color: var(--color1);
-}
-
-#all-containers .first .card p {
-color: var(--color1);
-}
-    
-#all-containers .first .card a {
-color: var(--color1);
-background-color: var(--color4);
 border: none;
-border-radius: 10em;
-}
-
-#all-containers .second {
-margin-top: 1em;
-margin-bottom: 1em;
-width: 50%;
-height: 43em;
-}
-
-#all-containers .second .card {
-height: 41em;
-background-color: var(--color2);
-margin: 1em;
-border-radius: 2em;
-}
-
-#all-containers .second .card h5 {
-color: var(--color1);
-}
-
-#all-containers .second .card p {
-color: var(--color1);
-}
-    
-#all-containers .second .card a {
-color: var(--color1);
-background-color: var(--color4);
-border: none;
-border-radius: 10em;
-}
-
-
-#clasificacion {
-margin-top: 0.5em;
-margin-bottom: 0.5em;
-width: 100%;
-height: 43em;
+border-radius: 50px;
 display: flex;
-}
-
-#clasificacion .card {
-width: 50%;
-height: 20em;
-background-color: var(--color2);
-margin: 1em;
-border-radius: 2em;
-}
-
-#clasificacion .card h5 {
-color: var(--color1);
-}
-
-#clasificacion .card p {
-color: var(--color1);
-}
-    
-#clasificacion .card a {
-color: var(--color1);
-background-color: var(--color4);
-border: none;
-border-radius: 10em;
-}
-
-/*--CARRUSELES DE IMAGENES--*/
-
-#slider{
-    margin: 0 auto;
-    width: 800px;
-    height: 500px;
-    overflow:hidden;
-    background-color: black;
-}
-/*Valores de las imagenes*/
-#slider img{
-    margin: 0 auto;
-    -moz-transition: opacity 2s;
-    -webkit-transition: opacity 2s;
-    transition: opacity 2s;
-    width: 800px;
-    height: 500px;
-    position: absolute;
-    opacity: 0;
-}
-/*Para que la primera imagen este activa al inicio*/
-#slider img:nth-child(1){
-    opacity: 1;
-}
-
-table{
-    margin: 0 auto;
-    width: 800px;
-    height: auto;
-    overflow:hidden;
-    background-color: white;
-    border: 0;
-}
-
-#izquierda{
-    text-align: right;
-}
-#derecha{
-    text-align: left;
-}
-
-/*--CARRUSELES DE IMAGENES--*/
-
-
-
-
-/*--FINAL DE CONTENIDO INFORMATIVO--*/
-
-/*--FINAL DEL HEADER--*/
-
-/*--COMIENZO CONTENIDO--*/
-
-#mi-info {
-display: flex;
-justify-content: center;
-}
-
-#mi-info .card {
-width: 40%;
-margin: 2em;
-}
-
-#my-style {
-padding-top: 1em;
-display: flex;
-justify-content: center;
-width: 100%;
-height: 50em;
-}
-
-#my-style .card1 {
-width: 40%;
-height: 38em;
-margin: 2em;
-background-size: cover;
-background-image: url(../img/Alejandro.jpg);
-border-radius: 10px;
-}
-
-
-#my-style .card1 h1 {
-color: var(--color3);
-margin-top: 1em;
-margin-bottom: 0.3em;
-}
-
-#my-style .card1 h3 {
-color: var(--color3);
-}
-
-#text-tfg {
 align-items: center;
-margin-top: 1em;
+text-align: center;
+justify-content: center;
 }
 
-#text-tfg .card {
-margin-top: 1em;
-width: 40em;
-height: 12em;
-background: none;
-border:none;
+#creacion figure {
+width: 100%;
+margin-left: 1em;
+margin-right: 1em;
+border-radius: 160px;
 }
 
-#text-tfg .card h2{
-color: var(--color3);
+#creacion .texto {
+width: 100%;
+padding: 2em;
 }
 
-#text-tfg .card p{
-    color: var(--color3);
-    }
-/*--FINAL CONTENIDO--*/
+#creacion h1 {
+width: 95%;
+color: var(--color1);
+text-align:right;
+}
 
+#creacion p {
+width: 95%;
+color: var(--color1);
+text-align:right;
+}
+
+
+    
+    /*--FINAL DE CREACIÓN--*/
+
+/*--COMIENZO DE ICONOS--*/
+
+#iconos {
+width: 96%;
+height: 12rem;
+margin-top: 2em;
+margin-left: 2em;
+margin-right: 2em;
+background-color: var(--color2);
+border: none;
+border-radius: 50px;
+}
+
+/*--FIANL DE ICONOS--*/
+
+/*--COMIENZO DE HISTORIA--*/
+
+#historia {
+width: 96%;
+height: 37rem;
+margin-top: 2em;
+margin-left: 2em;
+margin-right: 2em;
+
+border: none;
+border-radius: 50px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+}
+
+#historia figure {
+width: 100%;
+margin-left: 1em;
+margin-right: 1em;
+border-radius: 160px;
+}
+
+#historia .texto {
+width: 100%;
+padding: 2em;
+}
+
+#historia h1 {
+width: 95%;
+color: var(--color1);
+text-align:right;
+}
+
+#historia p {
+width: 95%;
+color: var(--color1);
+text-align:right;
+}
+    
+
+/*--FINAL DE HISTORIA--*/
 
 /*-----------FINAL DE SOBRE NOSOTROS-----------*/
 
@@ -694,6 +586,118 @@ margin: 1em;
 
         
 /*--FINAL DE INDUSTRIA--*/
+
+/*-----------COMIENZO DE NUESTRA TIENDA-----------*/
+
+/*--COMIENZO DE CONTENIDO INFORMATIVO--*/
+
+#all-containers {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    display: flex;
+    }
+    
+    #all-containers #first {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 50%;
+    height: 43em;
+    }
+    
+    #all-containers #first .card {
+    height: 20em;
+    background-color: var(--color2);
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: 1em;
+    border-radius: 2em;
+    }
+    
+    #all-containers #first .card h5 {
+    color: var(--color1);
+    }
+    
+    #all-containers #first .card p {
+    color: var(--color1);
+    }
+        
+    #all-containers #first .card a {
+    color: var(--color1);
+    background-color: var(--color4);
+    border: none;
+    border-radius: 10em;
+    }
+    
+    #all-containers #second {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 50%;
+    height: 43em;
+    }
+    
+    #all-containers #second .card {
+    height: 41em;
+    background-color: var(--color2);
+    margin: 1em;
+    border-radius: 2em;
+    }
+    
+    #all-containers #second .card h5 {
+    color: var(--color1);
+    }
+    
+    #all-containers #second .card p {
+    color: var(--color1);
+    }
+        
+    #all-containers #second .card a {
+    color: var(--color1);
+    background-color: var(--color4);
+    border: none;
+    border-radius: 10em;
+    }
+    
+    
+    #clasificacion {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    width: 100%;
+    height: 43em;
+    display: flex;
+    }
+    
+    #clasificacion .card {
+    width: 50%;
+    height: 20em;
+    background-color: var(--color2);
+    margin: 1em;
+    border-radius: 2em;
+    }
+    
+    #clasificacion .card img {
+    width: 100%;
+    }
+    
+    #clasificacion .card h5 {
+    color: var(--color1);
+    }
+    
+    #clasificacion .card p {
+    color: var(--color1);
+    }
+        
+    #clasificacion .card a {
+    color: var(--color1);
+    background-color: var(--color4);
+    border: none;
+    border-radius: 10em;
+    }
+    
+    
+    /*--FINAL DE CONTENIDO INFORMATIVO--*/
+
+/*-----------FINAL DE NUESTRA TIENDA-----------*/
 
 /*--COMIENZO DE FORMULARIO DE PAGO--*/
 
