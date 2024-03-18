@@ -152,7 +152,7 @@ border-radius: 10em;
 
 #all-containers {
 margin-top: 2em;
-margin-bottom: 2em;
+margin-bottom: 0.5em;
 text-align: center;
 display: flex;
 }
@@ -219,8 +219,8 @@ border-radius: 10em;
 
 
 #clasificacion {
-margin-top: 1em;
-margin-bottom: 1em;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
 width: 100%;
 height: 43em;
 display: flex;
@@ -248,6 +248,50 @@ background-color: var(--color4);
 border: none;
 border-radius: 10em;
 }
+
+/*--CARRUSELES DE IMAGENES--*/
+
+#slider{
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+    overflow:hidden;
+    background-color: black;
+}
+/*Valores de las imagenes*/
+#slider img{
+    margin: 0 auto;
+    -moz-transition: opacity 2s;
+    -webkit-transition: opacity 2s;
+    transition: opacity 2s;
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    opacity: 0;
+}
+/*Para que la primera imagen este activa al inicio*/
+#slider img:nth-child(1){
+    opacity: 1;
+}
+
+table{
+    margin: 0 auto;
+    width: 800px;
+    height: auto;
+    overflow:hidden;
+    background-color: white;
+    border: 0;
+}
+
+#izquierda{
+    text-align: right;
+}
+#derecha{
+    text-align: left;
+}
+
+/*--CARRUSELES DE IMAGENES--*/
+
 
 
 
