@@ -604,30 +604,20 @@ margin: 1em;
     width: 50%;
     height: 43em;
     }
-    
-    #all-containers #first .card {
-    height: 20em;
-    background-color: var(--color2);
-    margin-bottom: 1em;
-    margin-top: 1em;
-    margin-left: 1em;
-    border-radius: 2em;
-    }
-    
-    #all-containers #first .card h5 {
-    color: var(--color1);
-    }
-    
-    #all-containers #first .card p {
-    color: var(--color1);
-    }
-        
-    #all-containers #first .card a {
-    color: var(--color1);
-    background-color: var(--color4);
-    border: none;
-    border-radius: 10em;
-    }
+
+#all-containers #first {
+height: 20em;
+margin-bottom: 1em;
+margin-top: 1em;
+margin-left: 1em;
+border-radius: 2em;
+}
+
+#all-containers #first .instagram-media {
+width: 100%;
+height: 42rem;
+}
+
     
     #all-containers #second {
     margin-top: 1em;
@@ -643,56 +633,22 @@ margin: 1em;
     border-radius: 2em;
     }
     
-    #all-containers #second .card h5 {
-    color: var(--color1);
-    }
     
-    #all-containers #second .card p {
-    color: var(--color1);
-    }
-        
-    #all-containers #second .card a {
-    color: var(--color1);
-    background-color: var(--color4);
-    border: none;
-    border-radius: 10em;
-    }
-    
-    
-    #clasificacion {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    width: 100%;
-    height: 43em;
-    display: flex;
-    }
-    
-    #clasificacion .card {
-    width: 50%;
+    #frentes {
+    width: 30%;
     height: 20em;
-    background-color: var(--color2);
     margin: 1em;
     border-radius: 2em;
+    display: flex;
+    flex-direction: column;
     }
     
-    #clasificacion .card img {
-    width: 100%;
+    #frentes img {
+    width: 50%;
+    background-color: #FFFFFF;
+
     }
     
-    #clasificacion .card h5 {
-    color: var(--color1);
-    }
-    
-    #clasificacion .card p {
-    color: var(--color1);
-    }
-        
-    #clasificacion .card a {
-    color: var(--color1);
-    background-color: var(--color4);
-    border: none;
-    border-radius: 10em;
-    }
     
     
     /*--FINAL DE CONTENIDO INFORMATIVO--*/
