@@ -13,4 +13,145 @@
     --color3: #047863;
     --color4:#15373E;
 }
+/*-------------MODELO DE COLOCACIÓN DEL CONTENIDO-------------*/
 
+/*COMIENZO DE MEDIDAS*/
+/*----(Contenido)----*/
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+/*----(Contenido)----*/
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+/*----(Contenido)----*/
+/*FINAL DE AJUSTES VARIOS*/
+
+
+/*---------------------COMIENZO DE LA PRESENTACIÓN---------------------*/
+
+
+
+/*---COMIENZO DEL HEADER---*/
+
+header {
+
+/*COMIENZO DE MEDIDAS*/
+width: 100%;
+height: 100vh;
+/*FIN DE MEDIDAS*/
+background-color: var(--color2);
+
+}
+
+/*---COMIENZO DEL HEADER COLLAPSE---*/
+
+header .collapse {
+
+/*COMIENZO DE ALINEACIÓN*/
+justify-content: center;
+position: sticky;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+background-color: #047863;
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+
+header .collapse li {
+
+/*COMIENZO DE MEDIDAS*/
+margin-left: 4em;
+margin-right: 4em;
+/*FIN DE MEDIDAS*/
+
+}
+
+/*---FINAL DEL HEADER COLLAPSE---*/
+
+/*---COMIENZO DEL HEADER CONTAINER---*/
+
+header .container {
+
+/*COMIENZO DE MEDIDAS*/
+width: 100%;
+height: 61%;
+margin-top: 1em;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+justify-content: center;
+align-content: start;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+background-color: #047863;
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+
+header .container .col {
+    
+/*COMIENZO DE MEDIDAS*/
+width: 100%;
+height: 25rem;
+margin: 1em;
+/*FIN DE MEDIDAS*/
+/* COMIENZO DE ALINEACIÓN*/
+justify-content: center;
+align-content: center;
+text-align: left;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+color: var(--color1);
+background-color: #15373E;
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+
+header .container .col a {
+
+/*COMIENZO DE MEDIDAS*/
+width: 20%;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+justify-content: start;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+background-color: #00A561;
+border-style: none;
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+
+header .container .col img {
+
+/*COMIENZO DE MEDIDAS*/
+width: 80%;
+/*FIN DE MEDIDAS*/
+
+}
+
+
+#card-info .container .col {
+
+/*COMIENZO DE MEDIDAS*/
+width: 100%;
+height: 9em;
+border-radius: 2em;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+
+
+
+/*---FINAL DE CARD IMG---*/   
+
+/*---FINAL DEL HEADER CONTAINER---*/
+
+/*---FIANL DEL HEADER---*/
+
+
+/*---------------------FINAL DE LA PRESENTACIÓN---------------------*/
