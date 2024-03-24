@@ -48,7 +48,7 @@ header .collapse {
 
 /*COMIENZO DE ALINEACIÓN*/
 justify-content: center;
-position: sticky;
+position: fixed;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
 background-color: #047863;
