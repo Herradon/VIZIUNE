@@ -87,37 +87,52 @@
 
         <div class="card text-center mb-3">
             <div class="card-body">
-            <h5 class="card-title">¡Realidad aumentada, lo mejor de la inteligencia artificial!</h5>
-            </h5>
-            <p class="card-text">Antes de ver nuestra tienda, puedes acceder a nuestra camara de realidad aumentada y probarte todas nuestras gafas hasta encontrar tu estilo.</p>
-            </p>
-                <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-            Launch static backdrop modal
-            </button>
-  
-            <!-- Modal -->
-            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <model-viewer id="shoe" camera-controls touch-action="pan-y" src="assets/3d/camiseta7.gltf" tone-mapping="commerce" ar alt="A 3D model of a Shoe">
-                            <div class="controls">
+                <h5 class="card-title">¡Realidad aumentada, lo mejor de la inteligencia artificial!</h5>
+                <p class="card-text">Antes de ver nuestra tienda, puedes acceder a nuestra camara de realidad aumentada y probarte todas nuestras gafas hasta encontrar tu estilo.</p>
+                    <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Acceder</button>
+    
+                <!-- Modal -->
+                <div class="modal " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div id="seccion-btn">
+
+                                <div id="realidad">
+                            
+                                    <video id="video" width="640px" height="480px" autoplay></video>
+                            
+                                    <!--COMIENZO DE CARRUSELL-->
+                            
+                                </div>
+                            
+                            
+                                <div id="botones">
+                            
+                                    <button type="button" id="activarCamara" class="btn btn-primary btn-lg">Activar Cámara</button>
+                                    
+                                    <button type="button" id="cerrarcamara" class="btn btn-primary btn-lg">Cerrar</button>
+                            
+                                </div>
+                            
                             </div>
-                          </model-viewer>            
-                        </div>  
+                            
+                            <!--FINAL DE CARRUSELL-->        
+                            </div>  
+                        </div>
                     </div>
                 </div>
-                </div>
-            </div>
             </div>
         </div>
-
     </div>
+
+    
 
     <div id="frentes">
 

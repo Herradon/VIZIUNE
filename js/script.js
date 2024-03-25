@@ -43,4 +43,72 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+//----------------------------------------------------------------------
+
+// CREACIÓN DE VIDEO
+
+var IsCameraAccess = false;
+
+document.addEventListener('DOMContentLoaded', function() {
+    const activarCamaraBtn = document.getElementById('activarCamara');
+    const video = document.getElementById('video'); 
+    
+
+    // permiso y compatibilidad del video 
+    
+
+      
+     activarCamaraBtn.addEventListener('click', function() {
+        if(!IsCameraAccess ){
+                if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+
+                   
+                    navigator.mediaDevices.getUserMedia({ video: true })
+                        .then(function(stream) {
+        
+                            video.srcObject = stream;
+                            IsCameraAccess = true;
+                            
+        
+                        })
+                        .catch(function(error) {
+                            console.error('Error al acceder a la cámara:', error);
+                        });
+                } else {
+                console.error('getUserMedia no es compatible con este navegador');
+                }
+
+            }
+            else{
+                video.style.width = "640px";
+        
+            }
+        });
+    
+    
+});
+
+// Activación del video 
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    var video = document.getElementById("video");
+    var closeButton = document.getElementById("cerrarcamara");
+  
+    closeButton.addEventListener("click", function () {
+       
+        video.style.width = "0px";
+
+      //video.pause();
+
+     // window.close();
+
+      
+
+      //video.style.display = "none";
+    });
+  });
+
+ // FINAL DE CREACIÓN DE VIDEO CREACIÓN DE VIDEO
+
 

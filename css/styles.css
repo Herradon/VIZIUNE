@@ -289,6 +289,20 @@ background-size: cover;
 
 }
 
+#descuentos .card .modal-content {
+
+/*COMIENZO DE MEDIDAS*/
+width: 700px;
+ /*FIN DE MEDIDAS*/
+ /*COMIENZO DE ALINEACIÓN*/
+
+ /*FINAL DE ALINEACIÓN*/
+ /*COMIENZO DE AJUSTES VARIOS*/
+
+ /*FINAL DE AJUSTES VARIOS*/
+
+}
+
 /*---FINAL DE CARD IMG---*/   
 
 /*---COMIENZO DE BODY---*/
