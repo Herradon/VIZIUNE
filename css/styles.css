@@ -47,14 +47,17 @@ header .collapse {
 
 /*COMIENZO DE MEDIDAS*/
 width: 100%;
+height: 6rem;
+padding-top: 2em;
 z-index: 1;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 justify-content: center;
+align-content: center;
 position: fixed;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-
+backdrop-filter: blur(10px);
 /*FINAL DE AJUSTES VARIOS*/
 
 }
@@ -69,7 +72,7 @@ margin-left: 4em;
 
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-
+color: #00A561;
 /*FINAL DE AJUSTES VARIOS*/
 
 }
@@ -191,7 +194,7 @@ margin-left: 1em;
 margin-right: 1em;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
-
+justify-content: center;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
 
@@ -199,52 +202,90 @@ margin-right: 1em;
 
 }
 
-#tipos-de-gafas .card  {
+
+#banner {
+
+/*COMIENZO DE MEDIDAS*/
+margin-left: 1em;
+margin-right: 1em;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+justify-content: center;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+
+#banner .card  {
 
 /*COMIENZO DE MEDIDAS*/
 width: 100%;
 height: 18rem;
 margin-top: 1em;
+border-radius: 30px;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
-    
+
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-
+background-image: url(../img/Chicas_gafas.jpg);
+background-size: cover;
 /*FINAL DE AJUSTES VARIOS*/
     
 }
 
-#tipos-de-gafas #anuncios {
+#banner-2 .card  {
 
 /*COMIENZO DE MEDIDAS*/
 width: 100%;
+height: 18rem;
+margin-bottom: 1em;
+border-radius: 30px;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
-display: flex;
-justify-content: center;
-justify-content: space-around;
+
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
+background-image: url(../img/Chicas_gafas.jpg);
+background-size: cover;
+/*FINAL DE AJUSTES VARIOS*/
+    
+}
 
-/*FINAL DE AJUSTES VARIOS*/ 
+#descuentos {
+
+ /*COMIENZO DE MEDIDAS*/
+
+ margin-left: 1em;
+ margin-right: 1em;
+ padding: 2em;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+ display: flex;
+ justify-content: center;
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+
+  /*FINAL DE AJUSTES VARIOS*/
 
 }
 
+#descuentos .card {
 
-#tipos-de-gafas #anuncios .card {
+ /*COMIENZO DE MEDIDAS*/
 
-/*COMIENZO DE MEDIDAS*/
-width: 32%;
-margin-top: 1em;
-margin-bottom: 1em;
-/*FIN DE MEDIDAS*/
-/*COMIENZO DE ALINEACIÓN*/
-
-/*FINAL DE ALINEACIÓN*/
-/*COMIENZO DE AJUSTES VARIOS*/
-
-/*FINAL DE AJUSTES VARIOS*/ 
+ margin-left: 1em;
+ margin-right: 1em;
+ padding: 2em;
+ border-radius: 30px;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+ 
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+ 
+  /*FINAL DE AJUSTES VARIOS*/
 
 }
 
@@ -291,6 +332,7 @@ justify-content: center;
 margin-left: 1em;
 margin-right: 1em;
 padding: 2em;
+border-radius: 30px;
  /*FIN DE MEDIDAS*/
  /*COMIENZO DE ALINEACIÓN*/
 
@@ -340,39 +382,10 @@ justify-content: center;
 margin-left: 1em;
 margin-right: 1em;
 padding: 2em;
+border-radius: 30px;
  /*FIN DE MEDIDAS*/
  /*COMIENZO DE ALINEACIÓN*/
 
- /*FINAL DE ALINEACIÓN*/
- /*COMIENZO DE AJUSTES VARIOS*/
-
- /*FINAL DE AJUSTES VARIOS*/
- 
-}
-#terminales {
-
-/*COMIENZO DE MEDIDAS*/
-margin-top: 1em;
-margin-bottom: 1em;
-/*FIN DE MEDIDAS*/
-/*COMIENZO DE ALINEACIÓN*/
-display: flex;
-/*FINAL DE ALINEACIÓN*/
-/*COMIENZO DE AJUSTES VARIOS*/
-
-/*FINAL DE AJUSTES VARIOS*/
-
-}
-
-#terminales .card {
-
-/*COMIENZO DE MEDIDAS*/
- width: 50%;
- margin-left: 1em;
- margin-right: 1em;
- /*FIN DE MEDIDAS*/
- /*COMIENZO DE ALINEACIÓN*/
- display: flex;
  /*FINAL DE ALINEACIÓN*/
  /*COMIENZO DE AJUSTES VARIOS*/
 
