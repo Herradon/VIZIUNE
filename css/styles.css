@@ -538,3 +538,21 @@ width: 90%;
 
 
 /*---------------------FINAL DE CONTACTO---------------------*/
+
+
+/*---------------------PRUEBA RA--------------------*/
+
+
+#video_state {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#videoElement, #canvasElement {
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 0 10px;
+}
