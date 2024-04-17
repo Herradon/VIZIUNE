@@ -88,12 +88,33 @@ document.addEventListener('DOMContentLoaded', function() {
     
 });
 
+//CASO NEGATIVO 
+
+document.addEventListener('DOMContentLoaded', function() {
+  const videoElement = document.getElementById('video');
+  const closeButton = document.getElementById('cerrarCamara');
+  let mediaStream = null;
+
+  // CERRAR LA TRANSMISIÓN DE LA CÁMARA
+
+  closeButton.addEventListener('click', function() {
+      if (video) {
+          const tracks = mediaStream.getTracks();
+          tracks.forEach(track => track.stop());
+          mediaStream = null;
+          videoElement.srcObject = null;
+      }
+  });
+});
+
+
+// FIN DEL CASO NEGATIVO
 // Activación del video 
 
 document.addEventListener("DOMContentLoaded", function () {
 
     var video = document.getElementById("video");
-    var closeButton = document.getElementById("cerrarcamara");
+    var closeButton = document.getElementById("cerrarCamara");
   
     closeButton.addEventListener("click", function () {
        
@@ -112,5 +133,7 @@ document.addEventListener("DOMContentLoaded", function () {
  // FINAL DE CREACIÓN DE VIDEO CREACIÓN DE VIDEO
 
 
-// FILTRO PSRS CAMARA
+// on click 
+
+
 
