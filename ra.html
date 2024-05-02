@@ -3,15 +3,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Decorados de Cara con AR.js</title>
+    <script src="http://localhost:9000/build/aframe.js"></script>
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
 </head>
 <body>
     <a-scene embedded arjs>
         <!-- Agregar un marcador de cara -->
-        <a-marker type="face" size="300">
+        <a-marker type="face" size="400">
             <!-- Agregar elementos virtuales para decorar la cara -->
-
             <a-entity geometry="primitive: box; depth: 0.05; height: 0.1; width: 0.1"
                       material="color: red"
                       position="0 0 0"
@@ -20,9 +20,19 @@
         </a-marker>
         
         <!-- Agregar la cámara -->
-        <!--<video id="video" width="300px" height="280px" autoplay></video>-->
+        <!--<video id="video" width="640px" height="480px" autoplay></video>-->
         <a-entity camera></a-entity>
     </a-scene>
+    
+    <script src="js/aframe-master.js"></script>
+    <script src="js/aframe-master.js.map"></script>
+    <script src="js/aframe-master.min.js"></script>
+    <script src="js/aframe-master.min.js.map"></script>
+    <script src="js/aframe-v1.5.0.js"></script>
+    <script src="js/aframe-v1.5.0.js.map"></script>
     <script src="js/aframe-v1.5.0.min.js"></script>
+    <script src="js/aframe-v1.5.0.min.js.map"></script>
+    <script src="js/anime.es.js"></script>
+    
 </body>
 </html>
