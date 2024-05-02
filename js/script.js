@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // CERRAR LA TRANSMISIÓN DE LA CÁMARA
 
-  closeButton.addEventListener('click', function() {
+closeButton.addEventListener('click', function() {
       if (video) {
           const tracks = mediaStream.getTracks();
           tracks.forEach(track => track.stop());
@@ -106,7 +106,6 @@ document.addEventListener('DOMContentLoaded', function() {
       }
   });
 });
-
 
 // FIN DEL CASO NEGATIVO
 // Activación del video 
@@ -134,6 +133,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 // on click 
-
-
 
