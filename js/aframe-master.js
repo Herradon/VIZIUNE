@@ -8,7 +8,7 @@
 	else
 		root["AFRAME"] = factory();
 })(self, () => {
-return /******/ (() => { // webpackBootstrap
+return /******/ () => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./node_modules/an-array/index.js":
