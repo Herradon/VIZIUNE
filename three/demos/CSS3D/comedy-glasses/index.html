@@ -23,17 +23,13 @@
         <style type='text/css'>
         #jeelizFaceFilterFollow {
             display: block;
-            position: absolute; z-index: 1000;
-            background-image: url('comedy-glasses.png');
+            position: absolute; 
+            z-index: 1000;
+            background-image: url(../img/gafas\ de\ muestra.png);
             background-size: cover;
             height: 200px; width: 200px;
         }
-        .mouthOpened {
-            
-        }
-        .mouthClosed {
-            
-        }
+
         #jeeFaceFilterCanvas {
             /* YOU SHOULD KEEP the transform: translateZ(-4000px) and the transform-style: preserve-3d;
             OTHERWISE THE DIV WILL BE BEHIND THE CANVAS WITH IOS
@@ -45,11 +41,15 @@
 
     </head>
     
-    <body onload="main()" style='color: white'>
-        <canvas width="1024" height="1024" id='jeeFaceFilterCanvas'></canvas>
-
+    <body onload="main()">
+        <canvas width="1920" height="1080" id='jeeFaceFilterCanvas'></canvas>
+        <a class="link-opacity-10" href="tienda.html">Salir</a>
         <div id='jeelizFaceFilterFollow'>
             
+        </div>
+
+        <div id="entry">
+            <a href="tienda.html" style="font-size: 3em; color: black;">Salir</a>
         </div>
     </body>
 </html>
