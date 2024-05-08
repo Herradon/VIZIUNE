@@ -9,6 +9,7 @@
 </head>
 <body>
     <a-scene embedded arjs>
+        
         <!-- Agregar un marcador de cara -->
         <a-marker type="face" size="400px">
             <!-- Agregar elementos virtuales para decorar la cara -->
@@ -18,14 +19,24 @@
                       rotation="0 0 0">
             </a-entity>
         </a-marker>
+
+        
         
         <!-- Agregar la cámara -->
-        <video id="video" width="640px" height="480px" autoplay></video>
-        <!--<a-entity camera></a-entity>-->
+        <a-entity video id="camera" wasd-controls camera look-controls position="0 1.5 0" width="640px" height="480px" autoplay></video> </a-entity>
+        
+
+   
+  
+<a-plane look-at="#camera" ></a-plane>
+
     </a-scene>
     
     
     <script src="js/aframe-master.min.js"></script>
+    <script src="js/aframe-master.js"></script>
+   <script src="js/aframe-v1.5.0.js.map"></script>
     <script src="js/camera.js"></script>
+    <script src="js/aframe-master.js"></script>
 </body>
 </html>
