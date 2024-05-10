@@ -12,6 +12,7 @@
     --color2: #5cA265;
     --color3: #047863;
     --color4:#15373E;
+    --color5:black;
 }
 /*-------------MODELO DE COLOCACIÓN DEL CONTENIDO-------------*/
 
@@ -61,6 +62,25 @@ backdrop-filter: blur(10px);
 /*FINAL DE AJUSTES VARIOS*/
 
 }
+
+
+header .collapse .btn {  
+
+/*COMIENZO DE MEDIDAS*/
+
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+background: none;
+color: var(--color5);
+border: none;
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+
+
 
 header .collapse li {
 
@@ -855,6 +875,54 @@ width: 90%;
 
 /*---------------------FINAL DE CONTACTO---------------------*/
 
+/*---------------------COMIENZO DE REGISTRO---------------------*/
+#registro {
+
+/*COMIENZO DE MEDIDAS*/
+width: 100%;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+
+#registro .row {
+
+/*COMIENZO DE MEDIDAS*/
+width: 100%;
+height: 500px;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+background-color: #15373E;
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+
+#registro .row .mb-3{
+
+/*COMIENZO DE MEDIDAS*/
+width: 30%;
+height: 400px;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+
+flex-direction: column;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+background-color: #5cA265;
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+
+/*---------------------FINAL DE REGISTRO---------------------*/
+
 
 /*---------------------PRUEBA RA--------------------*/
 
@@ -982,3 +1050,4 @@ background: none;
 
 /*FINAL DE AJUSTES VARIOS*/
 }
+
