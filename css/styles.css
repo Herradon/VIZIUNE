@@ -169,13 +169,119 @@ border-radius: 2em;
 
 /*---------------------FINAL DE LA PRESENTACIÓN---------------------*/
 
-/*---------------------COMIENZO DE INDUSTRIA Y ACCESORIOS---------------------*/
+/*---------------------COMIENZO DE INDUSTRIA Y ACCESORIOS (NUEVO EVENTOS)---------------------*/
 
 
+#carteles {
 
+/*COMIENZO DE MEDIDAS*/
 
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+display: flex;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
 
-/*---------------------FINAL DE INDUSTROA Y ACCESORIOS---------------------*/
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+
+#carteles .card_1 {
+
+/*COMIENZO DE MEDIDAS*/
+width: 50%;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+text-align: left;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+
+#carteles .card_1 img {
+
+/*COMIENZO DE MEDIDAS*/
+width: 15em;
+margin-bottom: 2em;
+margin-left: 4em;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+
+#carteles .card_1 p {
+
+/*COMIENZO DE MEDIDAS*/
+width: 90%;
+height: 412px;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+  margin-left: 2em;
+  margin-right: 2em;
+  padding: 2em;
+  text-align: left;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+  background-color: var(--color2);
+  color: var(--color1);
+/*FINAL DE AJUSTES VARIOS*/
+  
+}
+
+#carteles .card_2 {
+
+/*COMIENZO DE MEDIDAS*/
+width: 50%;
+height: 100%;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+
+#carteles .card_2 h2 {
+
+/*COMIENZO DE MEDIDAS*/
+
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+text-align: center;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+color: var(--color2);
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+
+  
+#carteles .card_2 img {
+
+/*COMIENZO DE MEDIDAS*/
+width: 100%;
+padding-right: 2em;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+    
+
+/*---------------------FINAL DE INDUSTROA Y ACCESORIOS (NUEVO EVENTOS)---------------------*/
 
 /*---------------------COMIENZO DE TIENDA---------------------*/
 
@@ -434,7 +540,7 @@ margin-top: 2em;
  justify-content: center;
   /*FINAL DE ALINEACIÓN*/
   /*COMIENZO DE AJUSTES VARIOS*/
-  
+
   /*FINAL DE AJUSTES VARIOS*/
 
 }
