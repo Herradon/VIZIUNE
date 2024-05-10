@@ -151,12 +151,76 @@ border-style: none;
 
 }
 
-header .container .col img {
+header .container .col {
+
+/*COMIENZO DE MEDIDAS*/
+width: 50%;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+display: flex;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+
+header .container .col .img_1 {
+
+/*COMIENZO DE MEDIDAS*/
+width: 100%;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+align-content: center;
+text-align: center;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+background-color: #047863;
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+
+header .container .col .img_1 img{
+
+/*COMIENZO DE MEDIDAS*/
+width: 20%;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+background-color: #047863;
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+
+header .container .col .img_2 {
+
+/*COMIENZO DE MEDIDAS*/
+width: 100%;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+align-content: center;
+text-align: center;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+background-color: #5cA265;
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+
+header .container .col .img_2 img {
 
 /*COMIENZO DE MEDIDAS*/
 width: 80%;
 
 /*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+background-color: #15373E;
+/*FINAL DE AJUSTES VARIOS*/
 
 }
 

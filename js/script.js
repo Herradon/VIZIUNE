@@ -166,3 +166,6 @@ if (exampleModal) {
     modalBodyInput.value = recipient
   })
 }
+
+
+// FINAL DE AJUSTE DE NUEVO MODAL 
