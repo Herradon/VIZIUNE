@@ -206,8 +206,8 @@ justify-content: center;
 #banner {
 
 /*COMIENZO DE MEDIDAS*/
-margin-left: 1em;
-margin-right: 1em;
+margin-left: 3em;
+margin-right: 3em;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 justify-content: center;
@@ -306,28 +306,41 @@ color: var(--color1);
 /*COMIENZO DE AJUSTES VARIOS*/
 color: var(--color1);
 /*FINAL DE AJUSTES VARIOS*/
+
+}
+
+#banner .card #texto a  {
+
+/*COMIENZO DE MEDIDAS*/
+
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+color: var(--color1);
+text-decoration: none;
+/*FINAL DE AJUSTES VARIOS*/
         
 }
 
 #banner_2 .card  {
 
 /*COMIENZO DE MEDIDAS*/
-width: 100%;
-margin-bottom: 1em;
-padding-right: 2em;
-padding-left: 2em;
-border: none;
+margin-left: 3em;
+margin-right: 3em;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 flex-direction: column;
 flex-direction: row;
 flex-direction: row-reverse;
+justify-content: space-around;
 /*FINAL DE ALINEACIÓN*/
 
 /*COMIENZO DE AJUSTES VARIOS*/
 background-color: var(--color2);
 /*FINAL DE AJUSTES VARIOS*/
-    
+   
 }
 
 #banner_2 .card img  {
@@ -335,7 +348,6 @@ background-color: var(--color2);
 /*COMIENZO DE MEDIDAS*/
 margin-top: 1em;
 margin-bottom: 1em;
-border-radius: 5em;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 
@@ -414,17 +426,15 @@ color: var(--color1);
 #descuentos {
 
  /*COMIENZO DE MEDIDAS*/
-
- margin-left: 1em;
- margin-right: 1em;
- padding: 2em;
+width: 100%;
+margin-top: 2em;
   /*FIN DE MEDIDAS*/
   /*COMIENZO DE ALINEACIÓN*/
  display: flex;
  justify-content: center;
   /*FINAL DE ALINEACIÓN*/
   /*COMIENZO DE AJUSTES VARIOS*/
-
+  
   /*FINAL DE AJUSTES VARIOS*/
 
 }
@@ -433,10 +443,9 @@ color: var(--color1);
 
  /*COMIENZO DE MEDIDAS*/
 
- margin-left: 1em;
- margin-right: 1em;
- padding: 2em;
- border-radius: 30px;
+width: 91%;
+margin-left: 3em;
+margin-right: 3em;
   /*FIN DE MEDIDAS*/
   /*COMIENZO DE ALINEACIÓN*/
  
@@ -457,6 +466,49 @@ width: 700px;
  /*FINAL DE ALINEACIÓN*/
  /*COMIENZO DE AJUSTES VARIOS*/
 
+ /*FINAL DE AJUSTES VARIOS*/
+
+}
+
+#descuentos .card h2 {
+
+  /*COMIENZO DE MEDIDAS*/
+  width: 100%;
+   /*FIN DE MEDIDAS*/
+   /*COMIENZO DE ALINEACIÓN*/
+  text-align: center;
+   /*FINAL DE ALINEACIÓN*/
+   /*COMIENZO DE AJUSTES VARIOS*/
+  color: var(--color1);
+   /*FINAL DE AJUSTES VARIOS*/
+  
+  }
+
+#descuentos .card p {
+
+/*COMIENZO DE MEDIDAS*/
+width: 100%;
+ /*FIN DE MEDIDAS*/
+ /*COMIENZO DE ALINEACIÓN*/
+text-align: center;
+ /*FINAL DE ALINEACIÓN*/
+ /*COMIENZO DE AJUSTES VARIOS*/
+color: var(--color1);
+ /*FINAL DE AJUSTES VARIOS*/
+
+}
+
+#descuentos .card a {
+
+/*COMIENZO DE MEDIDAS*/
+width: 100%;
+ /*FIN DE MEDIDAS*/
+ /*COMIENZO DE ALINEACIÓN*/
+text-align: center;
+ /*FINAL DE ALINEACIÓN*/
+ /*COMIENZO DE AJUSTES VARIOS*/
+color: var(--color1);
+text-decoration: none;
  /*FINAL DE AJUSTES VARIOS*/
 
 }
