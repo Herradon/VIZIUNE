@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+html {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  max-width: 800px;
+  margin: 0;
+  text-align: center;
+  overflow: hidden;
+  background-color: silver;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.mirrorX {
+  transform: rotateY(180deg);
+}/*# sourceMappingURL=index.css.map */
