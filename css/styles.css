@@ -164,20 +164,69 @@ text-align: left;
 
 }
 
-header .container .col a {
+
+header .container .col .img_1 {
 
 /*COMIENZO DE MEDIDAS*/
-width: 20%;
+width: 100%;
+height: 500px;
+background-size: cover;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 justify-content: start;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-background-color:#047863;
-border-style: none;
+background-image: url(../img/Viziune_sit.jpg);
 /*FINAL DE AJUSTES VARIOS*/
 
 }
+
+header .container .col .img_2 {
+
+/*COMIENZO DE MEDIDAS*/
+width: 100%;
+height: 500px;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+justify-content: center;
+/*FINAL DE ALINEACIÓN*/
+background-color: var(--color4)
+/*COMIENZO DE AJUSTES VARIOS*/
+
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+
+header .container .col .img_2 h1 {
+
+/*COMIENZO DE MEDIDAS*/
+padding: 0.5em;
+font-size: 2em;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+/*FINAL DE ALINEACIÓN*/
+text-align: left;
+/*COMIENZO DE AJUSTES VARIOS*/
+color: var(--color1);
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+
+header .container .col .img_2 h2 {
+
+/*COMIENZO DE MEDIDAS*/
+padding: 0.5em;
+font-size: 1.5em;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+/*FINAL DE ALINEACIÓN*/
+text-align: left;
+/*COMIENZO DE AJUSTES VARIOS*/
+color: var(--color1);
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+  
 
 header .container .col {
 
@@ -278,6 +327,32 @@ border-radius: 2em;
 /*---FINAL DEL HEADER CONTAINER---*/
 
 /*---FIANL DEL HEADER---*/
+
+/*---COMIENZO DE INICIO---*/
+
+#card-icons {
+/*COMIENZO DE MEDIDAS*/
+height: 7em;
+display: flex;
+justify-content:space-around;
+border-radius: 5em;
+margin-left: 3em;
+margin-right: 3em;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+border-style: solid;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+border-color: var(--color2);
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+
+#card-icons img {
+width: 3em;
+}
+
+/*---FINAL DE INICIO---*/
 
 
 /*---------------------FINAL DE LA PRESENTACIÓN---------------------*/
