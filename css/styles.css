@@ -330,27 +330,94 @@ border-radius: 2em;
 
 /*---COMIENZO DE INICIO---*/
 
-#card-icons {
+#banner-explain {
 /*COMIENZO DE MEDIDAS*/
-height: 7em;
-display: flex;
-justify-content:space-around;
+height: 8em;
+margin-left: 2em;
+margin-right: 2em;
 border-radius: 5em;
-margin-left: 3em;
-margin-right: 3em;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 border-style: solid;
+align-content: center;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
 border-color: var(--color2);
 /*FINAL DE AJUSTES VARIOS*/
+}
 
+#card-icons {
+/*COMIENZO DE MEDIDAS*/
+display: flex;
+justify-content:space-around;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+
+/*FINAL DE AJUSTES VARIOS*/
+}
+
+#text-icons {
+/*COMIENZO DE MEDIDAS*/
+margin-top: 1em;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+display: flex;
+justify-content:space-around;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+
+/*FINAL DE AJUSTES VARIOS*/
+}
+
+#text-icons h3 {
+/*COMIENZO DE MEDIDAS*/
+font-size: 1em;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+justify-content: center;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+
+/*FINAL DE AJUSTES VARIOS*/
 }
 
 #card-icons img {
 width: 3em;
 }
+
+#sobre-nosotros {
+/*COMIENZO DE MEDIDAS*/
+
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+justify-content: center;
+display: flex;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+background-color: #047863;
+/*FINAL DE AJUSTES VARIOS*/
+
+}
+
+#sobre-nosotros .text-nosotros {
+/*COMIENZO DE MEDIDAS*/
+width: 500px;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+background-color: #047863;
+/*FINAL DE AJUSTES VARIOS*/
+}
+
+#sobre-nosotros .yomismo img {
+width: 500px;
+}
+
+
 
 /*---FINAL DE INICIO---*/
 
