@@ -13,6 +13,7 @@
     --color3: #047863;
     --color4:#15373E;
     --color5:black;
+    --color6:#f0f8ff; 
 }
 /*-------------MODELO DE COLOCACIÓN DEL CONTENIDO-------------*/
 
@@ -85,7 +86,7 @@ align-content: center;
 position: fixed;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-backdrop-filter: blur(10px);
+background-color: var(--color6);
 /*FINAL DE AJUSTES VARIOS*/
 
 }
@@ -243,7 +244,9 @@ width: 3em;
 
 #sobre-nosotros {
 /*COMIENZO DE MEDIDAS*/
-margin: 2em;
+margin-bottom: 1.5em;
+margin-top: 1.5em;
+width: 100%;
 height: 100vh;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
@@ -252,7 +255,7 @@ display: flex;
 align-items: center;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-
+background-color: var(--color6);
 /*FINAL DE AJUSTES VARIOS*/
 
 }
@@ -984,7 +987,6 @@ height: 20em;
 /*COMIENZO DE ALINEACIÓN*/
 
 /*FINAL DE ALINEACIÓN*/
-background-color: #15373E;
 /*FINAL DE AJUSTES VARIOS*/
 }
 
