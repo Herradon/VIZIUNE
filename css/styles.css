@@ -374,6 +374,113 @@ height: 20%;
 /*FINAL DE AJUSTES VARIOS*/
 }
 
+#coleccion {
+/*COMIENZO DE MEDIDAS*/
+width: 100%;
+height: 100vh;
+margin-top: 2em;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+display: flex;
+text-align: center;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+
+/*FINAL DE AJUSTES VARIOS*/
+}
+
+#coleccion .doble {
+/*COMIENZO DE MEDIDAS*/
+width: 50%;
+background-color: #047863;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+text-align: center;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+
+/*FINAL DE AJUSTES VARIOS*/
+}
+
+#coleccion .doble .contenido {
+/*COMIENZO DE MEDIDAS*/
+width: 100%;
+height: 540px;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+background-image: url(../img/flores.jpg);
+/*FINAL DE AJUSTES VARIOS*/
+}
+
+#coleccion .doble .contenido h1 {
+/*COMIENZO DE MEDIDAS*/
+width: 100%;
+height: 100%;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+align-content: center;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+backdrop-filter: blur(5px);
+  color: var(--color1);
+/*FINAL DE AJUSTES VARIOS*/
+}
+
+#coleccion .doble .imagen {
+/*COMIENZO DE MEDIDAS*/
+width: 100%;
+height: 540px;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+background-image: url(../img/flores.jpg);
+/*FINAL DE AJUSTES VARIOS*/
+}
+
+#coleccion .doble .imagen h1 {
+/*COMIENZO DE MEDIDAS*/
+width: 100%;
+height: 100%;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+align-content: center;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+backdrop-filter: blur(5px);
+color: var(--color1);
+/*FINAL DE AJUSTES VARIOS*/
+}
+
+#coleccion .video {
+/*COMIENZO DE MEDIDAS*/
+width: 50%;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+background-image: url(../img/flores.jpg);
+/*FINAL DE AJUSTES VARIOS*/
+}
+
+#coleccion .video h1 {
+/*COMIENZO DE MEDIDAS*/
+width: 100%;
+height: 100%;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+align-content: center;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+backdrop-filter: blur(5px);
+color: var(--color1);
+/*FINAL DE AJUSTES VARIOS*/
+}
 
 
 
