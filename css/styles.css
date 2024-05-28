@@ -508,7 +508,8 @@ color: var(--color1);
 #carteles {
 
 /*COMIENZO DE MEDIDAS*/
-
+width: 100%;
+height: 100vh;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 display: flex;
@@ -622,7 +623,32 @@ background-size: cover;
 
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-background-image: url(../img/impresora.jpg);
+
+/*FINAL DE AJUSTES VARIOS*/
+}
+
+#sorteos {
+/*COMIENZO DE MEDIDAS*/
+width: 100%;
+height: 100vh;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*
+
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+background-color: #047863;
+/*FINAL DE AJUSTES VARIOS*/
+}
+
+#sorteos video {
+/*COMIENZO DE MEDIDAS*/
+width: 100%;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*
+
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+
 /*FINAL DE AJUSTES VARIOS*/
 }
 
