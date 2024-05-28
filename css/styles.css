@@ -184,18 +184,13 @@ border-radius: 2em;
 
 #banner-explain {
 /*COMIENZO DE MEDIDAS*/
-height: 8em;
-margin-left: 2em;
-margin-right: 2em;
-border-radius: 5em;
-margin-top: 3em;
+width: 100%;
+height: 180px;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
-
 align-content: center;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-
 /*FINAL DE AJUSTES VARIOS*/
 }
 
@@ -205,7 +200,6 @@ align-content: center;
 /*COMIENZO DE ALINEACIÓN*/
 display: flex;
 justify-content:space-around;
-
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
 
@@ -238,14 +232,21 @@ justify-content: center;
 }
 
 #card-icons img {
+/*COMIENZO DE MEDIDAS*/
 width: 3em;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+
+/*FINAL DE AJUSTES VARIOS*/
 }
 
 
 #sobre-nosotros {
 /*COMIENZO DE MEDIDAS*/
 margin-bottom: 1.5em;
-margin-top: 1.5em;
 width: 100%;
 height: 100vh;
 /*FIN DE MEDIDAS*/
@@ -344,7 +345,6 @@ justify-content: space-around;
 align-items: center;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-
 /*FINAL DE AJUSTES VARIOS*/
 }
 
@@ -392,7 +392,6 @@ text-align: center;
 #coleccion .doble {
 /*COMIENZO DE MEDIDAS*/
 width: 50%;
-background-color: #047863;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 text-align: center;
@@ -406,12 +405,14 @@ text-align: center;
 /*COMIENZO DE MEDIDAS*/
 width: 100%;
 height: 540px;
+background-size: cover;
+margin-bottom: 1em;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-background-image: url(../img/flores.jpg);
+background-image: url(../img/impresora3.png);
 /*FINAL DE AJUSTES VARIOS*/
 }
 
@@ -419,6 +420,8 @@ background-image: url(../img/flores.jpg);
 /*COMIENZO DE MEDIDAS*/
 width: 100%;
 height: 100%;
+font-size: 50px;
+filter: drop-shadow(2px 2px 2px rgb(45, 45, 45));
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 align-content: center;
@@ -432,13 +435,15 @@ backdrop-filter: blur(5px);
 #coleccion .doble .imagen {
 /*COMIENZO DE MEDIDAS*/
 width: 100%;
-height: 540px;
+height: 525px;
+background-size: cover;
+margin-top: 1em;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-background-image: url(../img/flores.jpg);
+background-image: url(../img/imoresora2.webp);
 /*FINAL DE AJUSTES VARIOS*/
 }
 
@@ -446,6 +451,8 @@ background-image: url(../img/flores.jpg);
 /*COMIENZO DE MEDIDAS*/
 width: 100%;
 height: 100%;
+font-size: 50px;
+filter: drop-shadow(5px 5px 5px rgb(45, 45, 45));
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 align-content: center;
@@ -459,12 +466,16 @@ color: var(--color1);
 #coleccion .video {
 /*COMIENZO DE MEDIDAS*/
 width: 50%;
+height: 100%;
+background-size: cover;
+margin-right: 1em;
+margin-left: 1em;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-background-image: url(../img/flores.jpg);
+background-image: url(../img/impresora1.jpg);
 /*FINAL DE AJUSTES VARIOS*/
 }
 
@@ -472,6 +483,8 @@ background-image: url(../img/flores.jpg);
 /*COMIENZO DE MEDIDAS*/
 width: 100%;
 height: 100%;
+font-size: 50px;
+filter: drop-shadow(5px 5px 5px rgb(45, 45, 45));
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 align-content: center;
