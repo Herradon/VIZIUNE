@@ -26,7 +26,7 @@
       display: block;
       position: absolute; z-index: 1000;
       background-size: cover;
-      height: 200px; width: 200px;
+      height: 1200px; width: 1200px;
     }
 
     #jeeFaceFilterCanvas {
@@ -54,7 +54,7 @@
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/gafas_cerrado.png" class="d-block w-100" alt="...">
+            <model-viewer src="../3d/gafas_cuadradas.gltf" auto-rotate disable-zoom camera-controls></model-viewer>
           </div>
           <div class="carousel-item">
             <img src="img/hammer-solid.svg" class="d-block w-100" alt="...">
@@ -74,9 +74,31 @@
       </div>
 
     </div>
+
+    <style>
+
+ model-viewer{
+    
+    /*COMIENZO DE MEDIDAS*/
+    width: 2000px;
+    height: 2000px;
+    /*FIN DE MEDIDAS*/
+    /*COMIENZO DE ALINEACIÓN*/
+    text-align: center;
+    background-color: antiquewhite;
+    /*FINAL DE ALINEACIÓN*/
+    /*COMIENZO DE AJUSTES VARIOS*/
+    
+    /*FINAL DE AJUSTES VARIOS*/
+        
+    }
+
+
+    </style>
   </body>
 </html>
 
 <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
  
  
