@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="content-language" content="en-EN" />
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css">
     
     <title>JEELIZ FACEFILTER: CSS3D COMEDY GLASSES DEMO</title>
     
@@ -25,10 +25,10 @@
     #jeelizFaceFilterFollow {
       display: block;
       position: absolute; z-index: 1000;
-      background-color: aqua;
       background-size: cover;
       height: 200px; width: 200px;
     }
+
     #jeeFaceFilterCanvas {
       /* YOU SHOULD KEEP the transform: translateZ(-4000px) and the transform-style: preserve-3d;
       OTHERWISE THE DIV WILL BE BEHIND THE CANVAS WITH IOS
@@ -42,18 +42,41 @@
   </head>
   
   <body>
-    <div id="salir">
-      <a href="http://127.0.0.1:5501/tienda.html"><button type="button" class="btn">Base class</button>
+    <div id="salir" style="background-color: aquamarine; width: 100%; height: 100vh; align-content: center; padding-left: 2em;">
+      <a href="http://127.0.0.1:5501/tienda.html" class="btn btn-primary">Volver a la tienda</a>
       </a>
     </div>
 
     <canvas width="1024" height="1024" id='jeeFaceFilterCanvas'></canvas>
 
     <div id='jeelizFaceFilterFollow'>
+
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/gafas_cerrado.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/hammer-solid.svg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/glasses-solid.svg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next" style="color: black;">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
     </div>
   </body>
 </html>
 
-<script src="js/bootstrap.bundle.js"></script>
+<script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
  
  
