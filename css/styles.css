@@ -322,7 +322,6 @@ text-align: center;
 
 /*COMIENZO DE MEDIDAS*/
 width: 500px;
-
 border-radius: 50px;
 border-width: 10px;
 /*FIN DE MEDIDAS*/
@@ -514,9 +513,10 @@ height: 100vh;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 display: flex;
+align-items: center;
+justify-content: center;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-
 /*FINAL DE AJUSTES VARIOS*/
 
 }
@@ -524,10 +524,12 @@ display: flex;
 #carteles .card_1 {
 
 /*COMIENZO DE MEDIDAS*/
-width: 50%;
+width: 100%;
+height: 100%;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 text-align: left;
+align-content: center;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
 
@@ -538,7 +540,7 @@ text-align: left;
 #carteles .card_1 img {
 
 /*COMIENZO DE MEDIDAS*/
-width: 15em;
+width: 15%;
 margin-bottom: 2em;
 margin-left: 4em;
 /*FIN DE MEDIDAS*/
@@ -554,18 +556,33 @@ margin-left: 4em;
 #carteles .card_1 p {
 
 /*COMIENZO DE MEDIDAS*/
-width: 90%;
+width:75%;
 height: 412px;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
   margin-left: 2em;
   margin-right: 2em;
   padding: 2em;
-  text-align: left;
+  text-align: justify;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-  background-color: var(--color2);
-  color: var(--color1);
+  color: var(--color2);
+/*FINAL DE AJUSTES VARIOS*/
+  
+}
+
+#carteles .card_1 h2 {
+
+/*COMIENZO DE MEDIDAS*/
+width: 70%;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+margin-left: 2em;
+  margin-right: 2em;
+text-align: left;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+color: var(--color2);
 /*FINAL DE AJUSTES VARIOS*/
   
 }
@@ -573,85 +590,109 @@ height: 412px;
 #carteles .card_2 {
 
 /*COMIENZO DE MEDIDAS*/
-width: 50%;
+width: 100%;
 height: 100%;
-/*FIN DE MEDIDAS*/
-/*COMIENZO DE ALINEACIÓN*/
-
-/*FINAL DE ALINEACIÓN*/
-/*COMIENZO DE AJUSTES VARIOS*/
-
-/*FINAL DE AJUSTES VARIOS*/
-
-}
-
-#carteles .card_2 h2 {
-
-/*COMIENZO DE MEDIDAS*/
 
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
-text-align: center;
-/*FINAL DE ALINEACIÓN*/
-/*COMIENZO DE AJUSTES VARIOS*/
-color: var(--color2);
-/*FINAL DE AJUSTES VARIOS*/
-
-}
-
-  
-#carteles .card_2 img {
-
-/*COMIENZO DE MEDIDAS*/
-width: 100%;
-padding-right: 2em;
-/*FIN DE MEDIDAS*/
-/*COMIENZO DE ALINEACIÓN*/
-
-/*FINAL DE ALINEACIÓN*/
-/*COMIENZO DE AJUSTES VARIOS*/
-
-/*FINAL DE AJUSTES VARIOS*/
-
-}
-
-#cont {
-/*COMIENZO DE MEDIDAS*/
-width: 100%;
+align-content: center;
 background-size: cover;
-/*FIN DE MEDIDAS*/
-/*COMIENZO DE ALINEACIÓN*
-
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-
+background-image: url(../img/impresora4.jpg);
 /*FINAL DE AJUSTES VARIOS*/
+
 }
 
-#sorteos {
+#black {
 /*COMIENZO DE MEDIDAS*/
 width: 100%;
 height: 100vh;
 /*FIN DE MEDIDAS*/
-/*COMIENZO DE ALINEACIÓN*
-
+/*COMIENZO DE ALINEACIÓN*/
+display: flex;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-background-color: #047863;
+
 /*FINAL DE AJUSTES VARIOS*/
 }
 
-#sorteos video {
+#black #sorteos {
+  /*COMIENZO DE MEDIDAS*/
+  width: 50%;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  align-content: center;
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  
+  /*FINAL DE AJUSTES VARIOS*/
+  }
+  
+  #black #sorteos video {
+  /*COMIENZO DE MEDIDAS*/
+  width: 100%;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*
+  
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  
+  /*FINAL DE AJUSTES VARIOS*/
+  }
+
+#black .card_3 {
+
+  /*COMIENZO DE MEDIDAS*/
+  width: 50%;
+  height: 100%;
+  padding: 2em;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  text-align: left;
+  align-content: center;
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  /*FINAL DE AJUSTES VARIOS*/
+  
+  }
+  
+
+    
+#black .card_3 h2 {
+  
 /*COMIENZO DE MEDIDAS*/
-width: 100%;
+width: 70%;
 /*FIN DE MEDIDAS*/
-/*COMIENZO DE ALINEACIÓN*
-
+/*COMIENZO DE ALINEACIÓN*/
+margin-left: 2em;
+margin-right: 2em;
+text-align: left;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-
+color: var(--color2);
 /*FINAL DE AJUSTES VARIOS*/
+  
 }
+  
+  #black .card_3 p {
+  
+  /*COMIENZO DE MEDIDAS*/
+  width:80%;
+  height: 412px;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 2em;
+    text-align: justify;
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+    color: var(--color2);
+  /*FINAL DE AJUSTES VARIOS*/
+    
+  }
+
 
     
 
