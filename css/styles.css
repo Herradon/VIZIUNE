@@ -269,8 +269,9 @@ width: 50%;
 /*COMIENZO DE ALINEACIÓN*/
 text-align: center;
 /*FINAL DE ALINEACIÓN*/
-/*COMIENZO DE AJUSTES VARIOS*/
 
+/*COMIENZO DE AJUSTES VARIOS*/
+border-right-style: solid;
 /*FINAL DE AJUSTES VARIOS*/
 }
 
@@ -279,9 +280,10 @@ text-align: center;
 width: 900px;
 margin-top: 1em;
 font-size: 4em;
+padding-left: 0.5em;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
-text-align: center;
+text-align: left;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
 
@@ -297,7 +299,7 @@ padding-right: 1em;
 font-size: 25px;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
-text-align: left;
+text-align: justify;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
 
@@ -313,7 +315,6 @@ width: 40%;
 text-align: center;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-
 /*FINAL DE AJUSTES VARIOS*/
 }
 
@@ -321,7 +322,7 @@ text-align: center;
 
 /*COMIENZO DE MEDIDAS*/
 width: 500px;
-margin: 1em;
+
 border-radius: 50px;
 border-width: 10px;
 /*FIN DE MEDIDAS*/
