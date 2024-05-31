@@ -578,7 +578,7 @@ color: var(--color5);
 width: 90%;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
-padding-left: 2em;
+padding-left: 1.5em;
 text-align: left;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
@@ -670,8 +670,8 @@ width: 20%;
 
 #material .text_solid .cc1 {
 /*COMIENZO DE MEDIDAS*/
-padding: 2.5em;
-width: 100%;
+padding: 3em;
+
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 text-align: justify;
@@ -684,9 +684,24 @@ justify-content: space-around;
 /*FINAL DE AJUSTES VARIOS*/
 }
 
+#material .text_solid .cc1 h2 {
+/*COMIENZO DE MEDIDAS*/
+text-align: center;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+
+/*FINAL DE AJUSTES VARIOS*/
+}
+
 #material .text_solid .cc1 p {
 /*COMIENZO DE MEDIDAS*/
 font-size: 1.5em;
+width: 80%;
+height: 600px;
+text-align: left;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 
@@ -756,11 +771,10 @@ align-content: center;
 #black .card_3 h2 {
   
 /*COMIENZO DE MEDIDAS*/
-width: 70%;
+width: 90%;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
-margin-left: 3em;
-margin-right: 2em;
+padding: 1.5em;
 text-align: left;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
