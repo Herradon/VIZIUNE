@@ -22,13 +22,30 @@
     <link rel="stylesheet" href="../../appearance/style.css" type="text/css" />
 
     <style type='text/css'>
+
     #jeelizFaceFilterFollow {
       display: block;
       position: absolute; 
-      z-index: 1000;
-      background-size: cover;
-      height: 1200px; width: 1200px;
+      z-index: 1000; 
+
+      height: 2000px; width: 2000px;
     }
+
+    #jeelizFaceFilterFollow .carousel {
+      width:100%;
+      height: 100%;
+      align-items: center;
+      margin-top: 12em;
+    }
+
+
+    #jeelizFaceFilterFollow .carousel img {
+      width: 100%;
+
+      ;
+    }
+
+  
 
     #jeeFaceFilterCanvas {
       /* YOU SHOULD KEEP the transform: translateZ(-4000px) and the transform-style: preserve-3d;
@@ -55,15 +72,14 @@
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <model-viewer src="../3d/gafas_cuadradas.gltf" auto-rotate disable-zoom camera-controls></model-viewer>
+           <img src="img/gafas de muestra copia.png" alt="">
           </div>
-          <div class="carousel-item">
-            <img src="img/hammer-solid.svg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/glasses-solid.svg" class="d-block w-100" alt="...">
-          </div>
-        </div>
+          <div class="carousel-item active">
+            <img src="img/gafas de muestra copia.png" alt="">
+           </div>
+           <div class="carousel-item active">
+            <img src="img/gafas de muestra copia.png" alt="">
+           </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
