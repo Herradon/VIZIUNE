@@ -1407,3 +1407,31 @@ height: 5em;
 
 
 /*---------------------FINAL DE FOOTER---------------------*/
+/*---------------------COMIENZO DE MÉDIA QUERIES---------------------*/
+
+@media (max-width: 375px) {
+
+  /*--COMIENZO DEL HEADER--*/
+
+
+  .img_2 {
+    /*COMIENZO DE MEDIDAS*/
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    /*FIN DE MEDIDAS*/
+    /*COMIENZO DE ALINEACIÓN*/
+    
+    /*FINAL DE ALINEACIÓN*/
+    /*COMIENZO DE AJUSTES VARIOS*/
+    background-image: url(../img/flores.jpg);
+    background-color: #047863;
+    /*FINAL DE AJUSTES VARIOS*/
+    }
+
+
+  /*--FINAL DEL HEADER--*/
+
+
+
+}
