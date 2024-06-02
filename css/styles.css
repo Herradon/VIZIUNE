@@ -1589,12 +1589,13 @@ width: 2em;
 #coleccion {
 /*COMIENZO DE MEDIDAS*/
 width: 100%;
-height: 100vh;
+height: 100%;
 margin-top: 2em;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 display: flex;
 text-align: center;
+align-items: center;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
 
@@ -1618,7 +1619,7 @@ text-align: center;
 #coleccion .doble .contenido {
   /*COMIENZO DE MEDIDAS*/
   width: 100%;
-  height: 20%;
+  height: 210px;
   background-size: cover;
   margin-bottom: 1em;
   /*FIN DE MEDIDAS*/
@@ -1649,7 +1650,7 @@ text-align: center;
   #coleccion .doble .imagen {
   /*COMIENZO DE MEDIDAS*/
   width: 100%;
-  height: 20%;
+  height: 210px;
   background-size: cover;
   margin-top: 1em;
   /*FIN DE MEDIDAS*/
@@ -1680,7 +1681,7 @@ text-align: center;
   #coleccion .video {
   /*COMIENZO DE MEDIDAS*/
   width: 100%;
-  height: 40%;
+  height: 440px;
   background-size: cover;
   margin-right: 1em;
   margin-left: 1em;
@@ -1725,7 +1726,8 @@ text-align: center;
 
   /*COMIENZO DE MEDIDAS*/
   width: 100%;
-  height: 100vh;
+  height: 400px;
+  background-size: cover ;
   /*FIN DE MEDIDAS*/
   /*COMIENZO DE ALINEACIÓN*/
   display: flex;
@@ -1767,7 +1769,7 @@ text-align: center;
     text-align: justify;
   /*FINAL DE ALINEACIÓN*/
   /*COMIENZO DE AJUSTES VARIOS*/
-  color: var(--color3);
+  color: var(--color1);
   /*FINAL DE AJUSTES VARIOS*/
     
   }
@@ -1783,7 +1785,7 @@ text-align: center;
   font-size: 1em;
   /*FINAL DE ALINEACIÓN*/
   /*COMIENZO DE AJUSTES VARIOS*/
-  color: var(--color3);
+  color: var(--color1);
   /*FINAL DE AJUSTES VARIOS*/
 
   }
@@ -1830,6 +1832,7 @@ text-align: center;
     /*FIN DE MEDIDAS*/
     /*COMIENZO DE ALINEACIÓN*/
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
@@ -1842,7 +1845,7 @@ text-align: center;
     
     #material .img_solid img {
     /*COMIENZO DE MEDIDAS*/
-    width: 20%;
+    width: 50%;
     /*FIN DE MEDIDAS*/
     /*COMIENZO DE ALINEACIÓN*/
     
@@ -1860,6 +1863,7 @@ text-align: center;
       /*FIN DE MEDIDAS*/
       /*COMIENZO DE ALINEACIÓN*/
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       justify-content: space-around;
@@ -1887,6 +1891,7 @@ text-align: center;
     
     #material .text_solid .cc1 h2 {
     /*COMIENZO DE MEDIDAS*/
+    font-size: 1.2em;
     text-align: center;
     width: 100%;
     /*FIN DE MEDIDAS*/
@@ -1900,9 +1905,9 @@ text-align: center;
     
     #material .text_solid .cc1 p {
     /*COMIENZO DE MEDIDAS*/
-    font-size: 1.5em;
-    width: 95%;
-    height: 600px;
+    font-size: 1em;
+    width: 100%;
+    height: 150px;
     
     /*FIN DE MEDIDAS*/
     /*COMIENZO DE ALINEACIÓN*/
