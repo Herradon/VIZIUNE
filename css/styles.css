@@ -608,7 +608,7 @@ padding-top: 2em;
 padding-bottom: 2em;
 margin-top: 1em;
 width: 100%;
-height: 100vh;
+height: 700px;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 align-content: center;
@@ -649,14 +649,13 @@ width: 20%;
 /*FINAL DE AJUSTES VARIOS*/
 }
 
-#material .text_solid {
+#material {
   padding-top: 2em;
   padding-bottom: 2em;
   margin-top: 1em;
   width: 100%;
   /*FIN DE MEDIDAS*/
   /*COMIENZO DE ALINEACIÓN*/
-  display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-around;
@@ -666,23 +665,33 @@ width: 20%;
   /*FINAL DE AJUSTES VARIOS*/
 }
 
-#material .text_solid .cc1 {
+#material .ccone {
 /*COMIENZO DE MEDIDAS*/
 padding: 1.5em;
-
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 text-align: justify;
-justify-content: center;
-align-items: center;
-justify-content: space-around;
+align-content: center;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
 
 /*FINAL DE AJUSTES VARIOS*/
 }
 
-#material .text_solid .cc1 h2 {
+#material .ccone img {
+/*COMIENZO DE MEDIDAS*/
+width: 50%;
+margin-left: 5em;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+text-align: center;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+
+/*FINAL DE AJUSTES VARIOS*/
+}
+
+#material .ccone h2 {
 /*COMIENZO DE MEDIDAS*/
 text-align: center;
 width: 100%;
@@ -695,18 +704,17 @@ width: 100%;
 /*FINAL DE AJUSTES VARIOS*/
 }
 
-#material .text_solid .cc1 p {
+#material .ccone p {
 /*COMIENZO DE MEDIDAS*/
 font-size: 1.5em;
-width: 95%;
-height: 600px;
+width: 100%;
+height: 700px;
 
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
-text-align: left;
+text-align: justify;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-
 /*FINAL DE AJUSTES VARIOS*/
 }
   
