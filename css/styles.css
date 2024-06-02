@@ -1476,7 +1476,7 @@ width: 2em;
 #sobre-nosotros {
   /*COMIENZO DE MEDIDAS*/
   width: 100%;
-  height: 100vh;
+  height: 100%;
   /*FIN DE MEDIDAS*/
   /*COMIENZO DE ALINEACIÓN*/
   justify-content: center;
@@ -1586,6 +1586,21 @@ width: 2em;
 
 /*--COMIENZO DE COLECCIÓN--*/
 
+#coleccion {
+/*COMIENZO DE MEDIDAS*/
+width: 100%;
+height: 100vh;
+margin-top: 2em;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+display: flex;
+text-align: center;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+
+/*FINAL DE AJUSTES VARIOS*/
+}
+
 
 #coleccion .doble {
   /*COMIENZO DE MEDIDAS*/
@@ -1603,7 +1618,7 @@ width: 2em;
 #coleccion .doble .contenido {
   /*COMIENZO DE MEDIDAS*/
   width: 100%;
-  height: 48%;
+  height: 20%;
   background-size: cover;
   margin-bottom: 1em;
   /*FIN DE MEDIDAS*/
@@ -1634,7 +1649,7 @@ width: 2em;
   #coleccion .doble .imagen {
   /*COMIENZO DE MEDIDAS*/
   width: 100%;
-  height: 48%;
+  height: 20%;
   background-size: cover;
   margin-top: 1em;
   /*FIN DE MEDIDAS*/
@@ -1664,8 +1679,8 @@ width: 2em;
   
   #coleccion .video {
   /*COMIENZO DE MEDIDAS*/
-  width: 70%;
-  height: 100%;
+  width: 100%;
+  height: 40%;
   background-size: cover;
   margin-right: 1em;
   margin-left: 1em;
