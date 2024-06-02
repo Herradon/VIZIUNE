@@ -1926,6 +1926,7 @@ align-items: center;
     /*FIN DE MEDIDAS*/
     /*COMIENZO DE ALINEACIÓN*/
     display: flex;
+    flex-direction: column;
     /*FINAL DE ALINEACIÓN*/
     /*COMIENZO DE AJUSTES VARIOS*/
     
@@ -1934,7 +1935,7 @@ align-items: center;
     
     #black #sorteos {
       /*COMIENZO DE MEDIDAS*/
-      width: 50%;
+      width: 100%;
       /*FIN DE MEDIDAS*/
       /*COMIENZO DE ALINEACIÓN*/
       align-content: center;
@@ -1981,7 +1982,7 @@ align-items: center;
     width: 90%;
     /*FIN DE MEDIDAS*/
     /*COMIENZO DE ALINEACIÓN*/
-    padding: 1.5em;
+    padding: 1.2em;
     text-align: left;
     /*FINAL DE ALINEACIÓN*/
     /*COMIENZO DE AJUSTES VARIOS*/
@@ -1993,18 +1994,15 @@ align-items: center;
     #black .card_3 p {
     
     /*COMIENZO DE MEDIDAS*/
-    width:100%;
-    height: 60%;
+    width: 100%;
+    height: 80%;
+      font-size: 0.6em;
     /*FIN DE MEDIDAS*/
     /*COMIENZO DE ALINEACIÓN*/
-      padding: 2em;
-      font-size: 1.5em;
       text-align: justify;
     /*FINAL DE ALINEACIÓN*/
     /*COMIENZO DE AJUSTES VARIOS*/
-    color: var(--color5);
     /*FINAL DE AJUSTES VARIOS*/
-      
     }
 
   
@@ -2017,7 +2015,461 @@ align-items: center;
 /*---------------------COMIENZO DE TIENDA---------------------*/
 
 
-
+.img_22 {
+  /*COMIENZO DE MEDIDAS*/
+  height: 100vh;
+  background-size: cover;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  background-image: url(../img/Viziune_sit.jpg);
+  /*FINAL DE AJUSTES VARIOS*/
+  }
+  
+  
+  
+  
+  
+  /*---FINAL DEL HEADER COLLAPSE---*/
+  
+  /*---COMIENZO DEL HEADER CONTAINER---*/
+  
+  
+  
+  #banner_2 .card .info_text {
+  
+  /*COMIENZO DE MEDIDAS*/
+  
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  
+  
+  /*FINAL DE ALINEACIÓN*/
+  
+  /*COMIENZO DE AJUSTES VARIOS*/
+  
+  /*FINAL DE AJUSTES VARIOS*/
+      
+  }
+  
+  #banner_2 .card .info_text .logo img {
+  
+  /*COMIENZO DE MEDIDAS*/
+  width: 20em;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  
+  border-radius: 0;
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  
+  /*FINAL DE AJUSTES VARIOS*/
+      
+  }
+    
+  
+  #banner_2 .card .info_text h2 {
+  
+  /*COMIENZO DE MEDIDAS*/
+  width: 100%;
+  height: 3em;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  margin-bottom: 0;
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  color: var(--color1);
+  /*FINAL DE AJUSTES VARIOS*/
+      
+  }
+  
+  #banner_2 .card .info_text p {
+  
+  /*COMIENZO DE MEDIDAS*/
+  width: 600px;
+  margin-top: 0;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  text-justify:auto;
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  color: var(--color1);
+  /*FINAL DE AJUSTES VARIOS*/
+      
+  }
+  
+  #descuentos {
+  
+   /*COMIENZO DE MEDIDAS*/
+  width: 100%;
+  margin-top: 2em;
+    /*FIN DE MEDIDAS*/
+    /*COMIENZO DE ALINEACIÓN*/
+   display: flex;
+   justify-content: center;
+    /*FINAL DE ALINEACIÓN*/
+    /*COMIENZO DE AJUSTES VARIOS*/
+  
+    /*FINAL DE AJUSTES VARIOS*/
+  
+  }
+  
+  #descuentos .card {
+  
+   /*COMIENZO DE MEDIDAS*/
+  
+  width: 91%;
+  margin-left: 3em;
+  margin-right: 3em;
+    /*FIN DE MEDIDAS*/
+    /*COMIENZO DE ALINEACIÓN*/
+   
+    /*FINAL DE ALINEACIÓN*/
+    /*COMIENZO DE AJUSTES VARIOS*/
+  background-color: #15373E;
+    /*FINAL DE AJUSTES VARIOS*/
+  
+  }
+  
+  #descuentos .card .modal-content {
+  
+  /*COMIENZO DE MEDIDAS*/
+  width: 700px;
+   /*FIN DE MEDIDAS*/
+   /*COMIENZO DE ALINEACIÓN*/
+  
+   /*FINAL DE ALINEACIÓN*/
+   /*COMIENZO DE AJUSTES VARIOS*/
+  
+   /*FINAL DE AJUSTES VARIOS*/
+  
+  }
+  
+  #descuentos .card h2 {
+  
+    /*COMIENZO DE MEDIDAS*/
+    width: 100%;
+     /*FIN DE MEDIDAS*/
+     /*COMIENZO DE ALINEACIÓN*/
+    text-align: center;
+     /*FINAL DE ALINEACIÓN*/
+     /*COMIENZO DE AJUSTES VARIOS*/
+    color: var(--color1);
+     /*FINAL DE AJUSTES VARIOS*/
+    
+    }
+  
+  #descuentos .card p {
+  
+  /*COMIENZO DE MEDIDAS*/
+  width: 100%;
+   /*FIN DE MEDIDAS*/
+   /*COMIENZO DE ALINEACIÓN*/
+  text-align: center;
+   /*FINAL DE ALINEACIÓN*/
+   /*COMIENZO DE AJUSTES VARIOS*/
+  color: var(--color1);
+   /*FINAL DE AJUSTES VARIOS*/
+  
+  }
+  
+  #descuentos .card a {
+  
+  /*COMIENZO DE MEDIDAS*/
+  width: 100%;
+   /*FIN DE MEDIDAS*/
+   /*COMIENZO DE ALINEACIÓN*/
+  text-align: center;
+   /*FINAL DE ALINEACIÓN*/
+   /*COMIENZO DE AJUSTES VARIOS*/
+  color: var(--color1);
+  text-decoration: none;
+   /*FINAL DE AJUSTES VARIOS*/
+  
+  }
+  
+  /*---FINAL DE CARD IMG---*/   
+  
+  /*---COMIENZO DE BODY---*/
+  
+  #frentes {
+  
+  /*COMIENZO DE MEDIDAS*/
+  padding: 1em;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  justify-content: center;
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  
+  /*FINAL DE AJUSTES VARIOS*/
+  
+  }
+  
+  #frentes #clase-1 {
+      
+  /*COMIENZO DE MEDIDAS*/
+  width: 98%;
+  margin-left: 1em;
+  margin-right: 1em;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  
+  /*FINAL DE AJUSTES VARIOS*/
+      
+  }
+  
+  #frentes #clase-1 .card {
+      
+  /*COMIENZO DE MEDIDAS*/
+  width: 300px;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  
+  /*FINAL DE AJUSTES VARIOS*/
+      
+  }
+  
+  #frentes #clase-1 .card .col-md-3 {
+      
+  /*COMIENZO DE MEDIDAS*/
+  width: 100%;
+  height: 400px;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  text-align: center;
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  
+  /*FINAL DE AJUSTES VARIOS*/
+      
+  }
+  
+  #frentes #clase-1 .card .col-md-3 model-viewer{
+      
+  /*COMIENZO DE MEDIDAS*/
+  width: 100%;
+  height: 400px;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  text-align: center;
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  
+  /*FINAL DE AJUSTES VARIOS*/
+      
+  }
+  
+  
+  
+  #frentes #clase-2 {
+      
+  /*COMIENZO DE MEDIDAS*/
+  width: 98%;
+  margin-left: 1em;
+  margin-right: 1em;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  
+  /*FINAL DE AJUSTES VARIOS*/
+      
+  }
+  
+  #frentes #clase-2 .card {
+      
+  /*COMIENZO DE MEDIDAS*/
+  width: 300px;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  
+  /*FINAL DE AJUSTES VARIOS*/
+      
+  }
+  
+  #frentes #clase-2 .card .col-md-3 {
+      
+  /*COMIENZO DE MEDIDAS*/
+  width: 100%;
+  height: 400px;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  text-align: center;
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  
+  /*FINAL DE AJUSTES VARIOS*/
+      
+  }
+  
+  #frentes #clase-2 .card .col-md-3 model-viewer{
+      
+  /*COMIENZO DE MEDIDAS*/
+  width: 100%;
+  height: 400px;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  text-align: center;
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  
+  /*FINAL DE AJUSTES VARIOS*/
+      
+  }
+    
+  
+  #frentes #clase-3 {
+      
+  /*COMIENZO DE MEDIDAS*/
+  width: 98%;
+  margin-left: 1em;
+  margin-right: 1em;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  
+  /*FINAL DE AJUSTES VARIOS*/
+      
+  }
+  
+  #frentes #clase-3 .card {
+      
+  /*COMIENZO DE MEDIDAS*/
+  width: 300px;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  
+  /*FINAL DE AJUSTES VARIOS*/
+      
+  }
+  
+  #frentes #clase-3 .card .col-md-3 {
+      
+  /*COMIENZO DE MEDIDAS*/
+  width: 100%;
+  height: 400px;
+  /*FIN DE MEDIDAS*/ 
+  /*COMIENZO DE ALINEACIÓN*/
+  text-align: center;
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  
+  /*FINAL DE AJUSTES VARIOS*/
+      
+  }
+  
+  #frentes #clase-3 .card .col-md-3 model-viewer{
+      
+  /*COMIENZO DE MEDIDAS*/
+  width: 100%;
+  height: 400px;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  text-align: center;
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  
+  /*FINAL DE AJUSTES VARIOS*/
+      
+  }
+    
+  
+  #frentes .card  {
+  
+   /*COMIENZO DE MEDIDAS*/
+  
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 2em;
+  border-radius: 30px;
+   /*FIN DE MEDIDAS*/
+   /*COMIENZO DE ALINEACIÓN*/
+  
+   /*FINAL DE ALINEACIÓN*/
+   /*COMIENZO DE AJUSTES VARIOS*/
+  
+   /*FINAL DE AJUSTES VARIOS*/
+   
+  }
+  
+  #varillas {
+  
+  /*COMIENZO DE MEDIDAS*/
+  padding: 1em;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  justify-content: center;
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  
+  /*FINAL DE AJUSTES VARIOS*/
+  
+  }
+  
+  #varillas #clase-1, #clase-2 {
+      
+  /*COMIENZO DE MEDIDAS*/
+  width: 98%;
+  margin-left: 1em;
+  margin-right: 1em;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  
+  /*FINAL DE AJUSTES VARIOS*/
+      
+  }
+  
+  #varillas .card  {
+  
+   /*COMIENZO DE MEDIDAS*/
+  
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 2em;
+  border-radius: 30px;
+   /*FIN DE MEDIDAS*/
+   /*COMIENZO DE ALINEACIÓN*/
+  
+   /*FINAL DE ALINEACIÓN*/
+   /*COMIENZO DE AJUSTES VARIOS*/
+  
+   /*FINAL DE AJUSTES VARIOS*/
+   
+  }
 
 
 /*---------------------COMIENZO TIENDA---------------------*/
