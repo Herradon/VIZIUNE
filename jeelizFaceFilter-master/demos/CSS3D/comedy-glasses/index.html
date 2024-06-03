@@ -26,9 +26,9 @@
     #jeelizFaceFilterFollow {
       display: block;
       position: absolute; 
-      z-index: 20;
-      align-content: center;
-      height: 2000px; width: 2000px;
+      z-index: 1000;
+      margin-top: 4em;
+      height: 1000px; width: 1000px;
     }
 
     #jeelizFaceFilterFollow .carousel {
@@ -59,7 +59,7 @@
   </head>
   
   <body>
-    <div id="salir" style="background-color: aquamarine; width: 100%; height: 100vh; align-content: center; padding-left: 2em;">
+    <div id="salir" style="background-color: aquamarine; width: 100%; height: 100vh; padding-left: 2em; padding-top: 2em;">
       <a href="http://127.0.0.1:5501/tienda.html" class="btn btn-primary">Volver a la tienda</a>
       </a>
     </div>
@@ -68,7 +68,14 @@
 
     <div id='jeelizFaceFilterFollow'>
 
+
+
       <div id="carouselExample" class="carousel slide">
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
 
         <div class="carousel-inner">
           
@@ -83,18 +90,16 @@
            <div class="carousel-item active">
             <img src="img/gafas de muestra copia.png" alt="">
            </div>
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next" style="color: black;">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
 
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next" style="color: width: 5em; black;">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
     </div>
+
+  </div>
 
     <style>
 
