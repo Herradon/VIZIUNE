@@ -147,7 +147,7 @@ text-align: center;
 align-content: center;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-backdrop-filter: blur(17px);
+backdrop-filter: blur(10px);
 /*FINAL DE AJUSTES VARIOS*/
 }
 
