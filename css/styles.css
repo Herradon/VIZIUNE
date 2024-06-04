@@ -125,7 +125,7 @@ color: #00A561;
 
 }
 
-.img_2 {
+.back {
 /*COMIENZO DE MEDIDAS*/
 height: 100vh;
 background-size: cover;
@@ -135,6 +135,47 @@ background-size: cover;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
 background-image: url(../img/flores.jpg);
+/*FINAL DE AJUSTES VARIOS*/
+}
+
+.back #title_index {
+/*COMIENZO DE MEDIDAS*/
+height: 100%;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+text-align: center;
+align-content: center;
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+backdrop-filter: blur(17px);
+/*FINAL DE AJUSTES VARIOS*/
+}
+
+.back #title_index h1 {
+/*COMIENZO DE MEDIDAS*/
+font-size: 7em;
+padding-bottom: 1em;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:var(--color1);
+filter: drop-shadow(5px 5px 10px rgb(45, 45, 45));
+/*FINAL DE AJUSTES VARIOS*/
+}
+
+.back #title_index img {
+/*COMIENZO DE MEDIDAS*/
+width: 500px;
+padding-top: 1em;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+filter: drop-shadow(5px 5px 10px rgb(45, 45, 45));
 /*FINAL DE AJUSTES VARIOS*/
 }
 
@@ -271,7 +312,6 @@ text-align: center;
 /*FINAL DE ALINEACIÓN*/
 
 /*COMIENZO DE AJUSTES VARIOS*/
-border-right-style: solid;
 /*FINAL DE AJUSTES VARIOS*/
 }
 
@@ -373,6 +413,19 @@ height: 20%;
 
 /*FINAL DE AJUSTES VARIOS*/
 }
+
+#colaboradores img {
+  /*COMIENZO DE MEDIDAS*/
+  width: 15em;
+  height: 20%;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  
+  /*FINAL DE AJUSTES VARIOS*/
+  }
 
 #coleccion {
 /*COMIENZO DE MEDIDAS*/
@@ -505,7 +558,7 @@ color: var(--color1);
 /*---------------------COMIENZO DE INDUSTRIA Y ACCESORIOS (NUEVO EVENTOS)---------------------*/
 
 
-#boli {
+.events {
 
 /*COMIENZO DE MEDIDAS*/
 width: 100%;
@@ -542,7 +595,6 @@ justify-content: center;
 /*COMIENZO DE MEDIDAS*/
 width: 100%;
 height: 100%;
-padding: 2em;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 align-content: center;
@@ -588,7 +640,6 @@ color: var(--color5);
 #carteles .card_2 {
 
 /*COMIENZO DE MEDIDAS*/
-margin-top: 2em;
 width: 100%;
 height: 100%;
 /*FIN DE MEDIDAS*/
@@ -806,7 +857,7 @@ color: var(--color5);
 
 /*---COMIENZO DEL HEADER---*/
 
-.img_22 {
+.shop {
 /*COMIENZO DE MEDIDAS*/
 height: 100vh;
 background-size: cover;
@@ -1411,8 +1462,7 @@ height: 5em;
 
   /*--COMIENZO DEL HEADER--*/
 
-
-  .img_2 {
+.back  {
     /*COMIENZO DE MEDIDAS*/
     width: 100%;
     height: 100vh;
@@ -1720,282 +1770,10 @@ align-items: center;
 
 /*--COMIENZO DE CARTELES--*/
 
-  
-#carteles {
+.events {
 
-  /*COMIENZO DE MEDIDAS*/
-  width: 100%;
-  height: 100vh;
-  /*FIN DE MEDIDAS*/
-  /*COMIENZO DE ALINEACIÓN*/
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /*FINAL DE ALINEACIÓN*/
-  /*COMIENZO DE AJUSTES VARIOS*/
-  /*FINAL DE AJUSTES VARIOS*/
-  justify-content: center;
-  }
-  
-  #carteles .card_1 {
-  
-  /*COMIENZO DE MEDIDAS*/
-  width: 100%;
-  height: 100%;
-  padding: 2em;
-  /*FIN DE MEDIDAS*/
-  /*COMIENZO DE ALINEACIÓN*/
-  align-content: center;
-  justify-content: center;
-  /*FINAL DE ALINEACIÓN*/
-  /*COMIENZO DE AJUSTES VARIOS*/
-  /*FINAL DE AJUSTES VARIOS*/
-  
-  }
-  
-  #carteles .card_1 p {
-  
-  /*COMIENZO DE MEDIDAS*/
-  width: 100;
-  height: 52%;
-    padding: 2em;
-    font-size: 1.5em;
-  /*FIN DE MEDIDAS*/
-  /*COMIENZO DE ALINEACIÓN*/
-    text-align: justify;
-  /*FINAL DE ALINEACIÓN*/
-  /*COMIENZO DE AJUSTES VARIOS*/
-  color: var(--color5);
-  /*FINAL DE AJUSTES VARIOS*/
-    
-  }
-  
-  #carteles .card_1 h2 {
-  
-  /*COMIENZO DE MEDIDAS*/
-  width: 90%;
-  /*FIN DE MEDIDAS*/
-  /*COMIENZO DE ALINEACIÓN*/
-  padding-left: 1.5em;
-  text-align: left;
-  /*FINAL DE ALINEACIÓN*/
-  /*COMIENZO DE AJUSTES VARIOS*/
-  color: var(--color5);
-  /*FINAL DE AJUSTES VARIOS*/
-    
-  }
-  
-  #carteles .card_2 {
-  
-  /*COMIENZO DE MEDIDAS*/
-  margin-top: 2em;
-  width: 100%;
-  height: 100%;
-  /*FIN DE MEDIDAS*/
-  /*COMIENZO DE ALINEACIÓN*/
-  align-content: center;
-  background-size: cover;
-  /*FINAL DE ALINEACIÓN*/
-  /*COMIENZO DE AJUSTES VARIOS*/
-  background-image: url(../img/impresora4.jpg);
-  /*FINAL DE AJUSTES VARIOS*/
-  
-  }
-  
-  #material {
-  /*COMIENZO DE MEDIDAS*/
-  width: 100%;
-  height: 100vh;
-  justify-content: center;
-  /*FIN DE MEDIDAS*/
-  /*COMIENZO DE ALINEACIÓN*/
-  /*FINAL DE ALINEACIÓN*/
-  /*COMIENZO DE AJUSTES VARIOS*/
-  /*FINAL DE AJUSTES VARIOS*/
-  }
-  
-  #material .img_solid {
-  
-  /*COMIENZO DE MEDIDAS*/
-  width: 100%;
-  height: 100vh;
-  /*FIN DE MEDIDAS*/
-  /*COMIENZO DE ALINEACIÓN*/
-  display: flex;
-  /*FINAL DE ALINEACIÓN*/
-  /*COMIENZO DE AJUSTES VARIOS*/
-  
-  /*FINAL DE AJUSTES VARIOS*/
-  
-  }
-  
-  #material .img_solid img {
-  /*COMIENZO DE MEDIDAS*/
-  width: 20%;
-  /*FIN DE MEDIDAS*/
-  /*COMIENZO DE ALINEACIÓN*/
-  
-  /*FINAL DE ALINEACIÓN*/
-  /*COMIENZO DE AJUSTES VARIOS*/
-  
-  /*FINAL DE AJUSTES VARIOS*/
-  }
-  
-  #material {
-    padding-top: 2em;
-    padding-bottom: 2em;
-    margin-top: 1em;
-    width: 100%;
-    /*FIN DE MEDIDAS*/
-    /*COMIENZO DE ALINEACIÓN*/
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;
-    /*FINAL DE ALINEACIÓN*/
-    /*COMIENZO DE AJUSTES VARIOS*/
-    
-    /*FINAL DE AJUSTES VARIOS*/
-  }
-  
-  #material .ccone {
-  /*COMIENZO DE MEDIDAS*/
-  padding: 1.5em;
-  /*FIN DE MEDIDAS*/
-  /*COMIENZO DE ALINEACIÓN*/
-  text-align: justify;
-  align-content: center;
-  /*FINAL DE ALINEACIÓN*/
-  /*COMIENZO DE AJUSTES VARIOS*/
-  
-  /*FINAL DE AJUSTES VARIOS*/
-  }
-  
-  #material .ccone img {
-  /*COMIENZO DE MEDIDAS*/
-  width: 50%;
-  margin-left: 5em;
-  /*FIN DE MEDIDAS*/
-  /*COMIENZO DE ALINEACIÓN*/
-  text-align: center;
-  /*FINAL DE ALINEACIÓN*/
-  /*COMIENZO DE AJUSTES VARIOS*/
-  
-  /*FINAL DE AJUSTES VARIOS*/
-  }
-  
-  #material .ccone h2 {
-  /*COMIENZO DE MEDIDAS*/
-  text-align: center;
-  width: 100%;
-  /*FIN DE MEDIDAS*/
-  /*COMIENZO DE ALINEACIÓN*/
-  
-  /*FINAL DE ALINEACIÓN*/
-  /*COMIENZO DE AJUSTES VARIOS*/
-    
-  /*FINAL DE AJUSTES VARIOS*/
-  }
-  
-  #material .ccone p {
-  /*COMIENZO DE MEDIDAS*/
-  font-size: 1.5em;
-  width: 100%;
-  /*FIN DE MEDIDAS*/
-  /*COMIENZO DE ALINEACIÓN*/
-  text-align: justify;
-  /*FINAL DE ALINEACIÓN*/
-  /*COMIENZO DE AJUSTES VARIOS*/
-  /*FINAL DE AJUSTES VARIOS*/
-  }
-    
-  
-  #black {
-  /*COMIENZO DE MEDIDAS*/
-  width: 100%;
-  height: 100vh;
-  /*FIN DE MEDIDAS*/
-  /*COMIENZO DE ALINEACIÓN*/
-  display: flex;
-  /*FINAL DE ALINEACIÓN*/
-  /*COMIENZO DE AJUSTES VARIOS*/
-  
-  /*FINAL DE AJUSTES VARIOS*/
-  }
-  
-  #black #sorteos {
-    /*COMIENZO DE MEDIDAS*/
-    width: 50%;
-    /*FIN DE MEDIDAS*/
-    /*COMIENZO DE ALINEACIÓN*/
-    align-content: center;
-    /*FINAL DE ALINEACIÓN*/
-    /*COMIENZO DE AJUSTES VARIOS*/
-    
-    /*FINAL DE AJUSTES VARIOS*/
-    }
-    
-    #black #sorteos video {
-    /*COMIENZO DE MEDIDAS*/
-    width: 100%;
-    /*FIN DE MEDIDAS*/
-    /*COMIENZO DE ALINEACIÓN*
-    
-    /*FINAL DE ALINEACIÓN*/
-    /*COMIENZO DE AJUSTES VARIOS*/
-    
-    /*FINAL DE AJUSTES VARIOS*/
-    }
-  
-  #black .card_3 {
-  
-    /*COMIENZO DE MEDIDAS*/
-    width: 50%;
-    height: 100%;
-    padding: 2em;
-    /*FIN DE MEDIDAS*/
-    /*COMIENZO DE ALINEACIÓN*/
-    text-align: left;
-  align-content: center;
-    /*FINAL DE ALINEACIÓN*/
-    /*COMIENZO DE AJUSTES VARIOS*/
-  
-    /*FINAL DE AJUSTES VARIOS*/
-    
-    }
-    
-  
-      
-  #black .card_3 h2 {
-    
-  /*COMIENZO DE MEDIDAS*/
-  width: 90%;
-  /*FIN DE MEDIDAS*/
-  /*COMIENZO DE ALINEACIÓN*/
-  padding: 1.5em;
-  text-align: left;
-  /*FINAL DE ALINEACIÓN*/
-  /*COMIENZO DE AJUSTES VARIOS*/
-  color: var(--color5);
-  /*FINAL DE AJUSTES VARIOS*/
-    
-  }
-    
-  #black .card_3 p {
-  
-  /*COMIENZO DE MEDIDAS*/
-  width:100%;
-  height: 60%;
-  /*FIN DE MEDIDAS*/
-  /*COMIENZO DE ALINEACIÓN*/
-    padding: 2em;
-    font-size: 1.5em;
-    text-align: justify;
-  /*FINAL DE ALINEACIÓN*/
-  /*COMIENZO DE AJUSTES VARIOS*/
-  color: var(--color5);
-  /*FINAL DE AJUSTES VARIOS*/
-    
-  }
+}
+
 /*--FINAL DE CARTELES--*/
 
 /*---------------------COMIENZO EVENTOS---------------------*/
@@ -2003,8 +1781,7 @@ align-items: center;
 
 /*---------------------COMIENZO DE TIENDA---------------------*/
 
-
-.img_22 {
+header {
   /*COMIENZO DE MEDIDAS*/
   height: 100vh;
   background-size: cover;
@@ -2025,159 +1802,6 @@ align-items: center;
   
   /*---COMIENZO DEL HEADER CONTAINER---*/
   
-  
-  
-  #banner_2 .card .info_text {
-  
-  /*COMIENZO DE MEDIDAS*/
-  
-  /*FIN DE MEDIDAS*/
-  /*COMIENZO DE ALINEACIÓN*/
-  
-  
-  /*FINAL DE ALINEACIÓN*/
-  
-  /*COMIENZO DE AJUSTES VARIOS*/
-  
-  /*FINAL DE AJUSTES VARIOS*/
-      
-  }
-  
-  #banner_2 .card .info_text .logo img {
-  
-  /*COMIENZO DE MEDIDAS*/
-  width: 20em;
-  /*FIN DE MEDIDAS*/
-  /*COMIENZO DE ALINEACIÓN*/
-  
-  border-radius: 0;
-  /*FINAL DE ALINEACIÓN*/
-  /*COMIENZO DE AJUSTES VARIOS*/
-  
-  /*FINAL DE AJUSTES VARIOS*/
-      
-  }
-    
-  
-  #banner_2 .card .info_text h2 {
-  
-  /*COMIENZO DE MEDIDAS*/
-  width: 100%;
-  height: 3em;
-  /*FIN DE MEDIDAS*/
-  /*COMIENZO DE ALINEACIÓN*/
-  margin-bottom: 0;
-  /*FINAL DE ALINEACIÓN*/
-  /*COMIENZO DE AJUSTES VARIOS*/
-  color: var(--color1);
-  /*FINAL DE AJUSTES VARIOS*/
-      
-  }
-  
-  #banner_2 .card .info_text p {
-  
-  /*COMIENZO DE MEDIDAS*/
-  width: 600px;
-  margin-top: 0;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  /*FIN DE MEDIDAS*/
-  /*COMIENZO DE ALINEACIÓN*/
-  text-justify:auto;
-  /*FINAL DE ALINEACIÓN*/
-  /*COMIENZO DE AJUSTES VARIOS*/
-  color: var(--color1);
-  /*FINAL DE AJUSTES VARIOS*/
-      
-  }
-  
-  #descuentos {
-  
-   /*COMIENZO DE MEDIDAS*/
-  width: 100%;
-  margin-top: 2em;
-    /*FIN DE MEDIDAS*/
-    /*COMIENZO DE ALINEACIÓN*/
-   display: flex;
-   justify-content: center;
-    /*FINAL DE ALINEACIÓN*/
-    /*COMIENZO DE AJUSTES VARIOS*/
-  
-    /*FINAL DE AJUSTES VARIOS*/
-  
-  }
-  
-  #descuentos .card {
-  
-   /*COMIENZO DE MEDIDAS*/
-  
-  width: 300px;
-    /*FIN DE MEDIDAS*/
-    /*COMIENZO DE ALINEACIÓN*/
-   
-    /*FINAL DE ALINEACIÓN*/
-    /*COMIENZO DE AJUSTES VARIOS*/
-  background-color: #15373E;
-    /*FINAL DE AJUSTES VARIOS*/
-  
-  }
-  
-  #descuentos .card .modal-content {
-  
-  /*COMIENZO DE MEDIDAS*/
-  width: px;
-   /*FIN DE MEDIDAS*/
-   /*COMIENZO DE ALINEACIÓN*/
-  
-   /*FINAL DE ALINEACIÓN*/
-   /*COMIENZO DE AJUSTES VARIOS*/
-  
-   /*FINAL DE AJUSTES VARIOS*/
-  
-  }
-  
-  #descuentos .card h2 {
-  
-    /*COMIENZO DE MEDIDAS*/
-    width: 100%;
-     /*FIN DE MEDIDAS*/
-     /*COMIENZO DE ALINEACIÓN*/
-    text-align: center;
-     /*FINAL DE ALINEACIÓN*/
-     /*COMIENZO DE AJUSTES VARIOS*/
-    color: var(--color1);
-     /*FINAL DE AJUSTES VARIOS*/
-    
-    }
-  
-  #descuentos .card p {
-  
-  /*COMIENZO DE MEDIDAS*/
-  width: 100%;
-   /*FIN DE MEDIDAS*/
-   /*COMIENZO DE ALINEACIÓN*/
-  text-align: center;
-   /*FINAL DE ALINEACIÓN*/
-   /*COMIENZO DE AJUSTES VARIOS*/
-  color: var(--color1);
-   /*FINAL DE AJUSTES VARIOS*/
-  
-  }
-  
-  #descuentos .card a {
-  
-  /*COMIENZO DE MEDIDAS*/
-  width: 100%;
-   /*FIN DE MEDIDAS*/
-   /*COMIENZO DE ALINEACIÓN*/
-  text-align: center;
-   /*FINAL DE ALINEACIÓN*/
-   /*COMIENZO DE AJUSTES VARIOS*/
-  color: var(--color1);
-  text-decoration: none;
-   /*FINAL DE AJUSTES VARIOS*/
-  
-  }
   
   /*---FINAL DE CARD IMG---*/   
   
@@ -2219,7 +1843,7 @@ align-items: center;
   #frentes #clase-1 .card {
       
   /*COMIENZO DE MEDIDAS*/
-  width: 60px;
+  width: 2px;
   /*FIN DE MEDIDAS
   /*COMIENZO DE ALINEACIÓN*/
   
