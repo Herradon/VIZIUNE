@@ -151,7 +151,7 @@ backdrop-filter: blur(10px);
 /*FINAL DE AJUSTES VARIOS*/
 }
 
-.back #title_index h1 {
+.back #title_index h2 {
 /*COMIENZO DE MEDIDAS*/
 font-size: 7em;
 padding-bottom: 1em;
@@ -297,7 +297,7 @@ display: flex;
 align-items: center;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-background-color: var(--color6);
+
 /*FINAL DE AJUSTES VARIOS*/
 
 }
@@ -305,13 +305,12 @@ background-color: var(--color6);
 #sobre-nosotros .text-nosotros {
 /*COMIENZO DE MEDIDAS*/
 width: 50%;
-
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 text-align: center;
 /*FINAL DE ALINEACIÓN*/
-
 /*COMIENZO DE AJUSTES VARIOS*/
+
 /*FINAL DE AJUSTES VARIOS*/
 }
 
@@ -323,10 +322,10 @@ font-size: 4em;
 padding-left: 0.5em;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
-text-align: left;
+text-align: center;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-
+color: var(--color1);
 /*FINAL DE AJUSTES VARIOS*/
 }
 
@@ -349,12 +348,15 @@ text-align: justify;
 
 #sobre-nosotros .yomismo {
 /*COMIENZO DE MEDIDAS*/
-width: 40%;
+width: 100%;
+height: 100%;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 text-align: center;
+align-content: center ;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
+
 /*FINAL DE AJUSTES VARIOS*/
 
 }
@@ -374,6 +376,21 @@ border-width: 10px;
 /*FINAL DE AJUSTES VARIOS*/
 
 }
+
+#sobre-nosotros .yomismo video {
+
+  /*COMIENZO DE MEDIDAS*/
+  width: 100%;
+padding: 2em;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  
+  /*FINAL DE AJUSTES VARIOS*/
+  
+  }
 
 #colaboradores {
 /*COMIENZO DE MEDIDAS*/
@@ -866,7 +883,7 @@ background-size: cover;
 
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-background-image: url(../img/Viziune_sit.jpg);
+background-image: url(../img/viziune_giff.gif);
 /*FINAL DE AJUSTES VARIOS*/
 }
 
@@ -1462,6 +1479,32 @@ height: 5em;
 
   /*--COMIENZO DEL HEADER--*/
 
+  #sobre-nosotros {
+/*COMIENZO DE MEDIDAS*/
+width: 100%;
+height: 100vh;
+background-size: cover;
+/*FIN DE MEDIDAS*/
+/*COMIENZO DE ALINEACIÓN*/
+
+/*FINAL DE ALINEACIÓN*/
+/*COMIENZO DE AJUSTES VARIOS*/
+
+/*FINAL DE AJUSTES VARIOS*/
+  }
+.text-nosotros h2{
+  /*COMIENZO DE MEDIDAS*/
+  width: 100%;
+  font: size 50%;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  color: var(--color1);
+  /*FINAL DE AJUSTES VARIOS*/
+ }
+
 .back  {
     /*COMIENZO DE MEDIDAS*/
     width: 100%;
@@ -1585,12 +1628,14 @@ width: 2em;
   
   #sobre-nosotros .yomismo {
   /*COMIENZO DE MEDIDAS*/
-  width: 40%;
+width: 100%;
+height: 100%;
   /*FIN DE MEDIDAS*/
   /*COMIENZO DE ALINEACIÓN*/
   text-align: center;
   /*FINAL DE ALINEACIÓN*/
   /*COMIENZO DE AJUSTES VARIOS*/
+  background-color: #047863;
   /*FINAL DE AJUSTES VARIOS*/
   
   }
@@ -1598,7 +1643,7 @@ width: 2em;
   #sobre-nosotros .yomismo img {
   
   /*COMIENZO DE MEDIDAS*/
-  width: 100%;
+  width: 1900px;
   border-radius: 0px;
   border-width: 0px;
   /*FIN DE MEDIDAS*/
@@ -1606,10 +1651,25 @@ width: 2em;
   
   /*FINAL DE ALINEACIÓN*/
   /*COMIENZO DE AJUSTES VARIOS*/
-  
   /*FINAL DE AJUSTES VARIOS*/
   
   }
+
+  #sobre-nosotros .yomismo .video {
+  
+    /*COMIENZO DE MEDIDAS*/
+    width: 100%;
+    border-radius: 0px;
+    border-width: 0px;
+    /*FIN DE MEDIDAS*/
+    /*COMIENZO DE ALINEACIÓN*/
+    
+    /*FINAL DE ALINEACIÓN*/
+    /*COMIENZO DE AJUSTES VARIOS*/
+    
+    /*FINAL DE AJUSTES VARIOS*/
+    
+    }
 
 /*--FINAL DEL SOBRE NOSOTROS--*/
 
@@ -1618,8 +1678,8 @@ width: 2em;
 
 #colaboradores a img {
   /*COMIENZO DE MEDIDAS*/
-  width:5em;
-  height: 20%;
+  width:3em;
+  height: 10%;
   /*FIN DE MEDIDAS*/
   /*COMIENZO DE ALINEACIÓN*/
   
@@ -1770,9 +1830,7 @@ align-items: center;
 
 /*--COMIENZO DE CARTELES--*/
 
-.events {
 
-}
 
 /*--FINAL DE CARTELES--*/
 
