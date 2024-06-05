@@ -315,7 +315,7 @@ justify-content: center;
 /*FINAL DE AJUSTES VARIOS*/
 }
 
-#sobre-nosotros .text-nosotros h2 {
+#sobre-nosotros .text-nosotros h3 {
 /*COMIENZO DE MEDIDAS*/
 width: 100%;
 margin-top: 1em;
@@ -326,7 +326,6 @@ padding-left: 0.5em;
 text-align: center;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-color: var(--color1);
 
 /*FINAL DE AJUSTES VARIOS*/
 }
