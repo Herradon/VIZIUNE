@@ -1496,6 +1496,19 @@ height: 5em;
 
   /*--COMIENZO DEL HEADER--*/
 
+  .back #title_index {
+    /*COMIENZO DE MEDIDAS*/
+    height: 94%;
+    /*FIN DE MEDIDAS*/
+    /*COMIENZO DE ALINEACIÓN*/
+    text-align: center;
+    align-content: center;
+    /*FINAL DE ALINEACIÓN*/
+    /*COMIENZO DE AJUSTES VARIOS*/
+    backdrop-filter: blur(10px);
+    /*FINAL DE AJUSTES VARIOS*/
+    }
+
   .shop {
     /*COMIENZO DE MEDIDAS*/
     height: 3em;
@@ -1620,7 +1633,6 @@ width: 2em;
   /*FINAL DE ALINEACIÓN*/
   
   /*COMIENZO DE AJUSTES VARIOS*/
-
   /*FINAL DE AJUSTES VARIOS*/
   }
   
@@ -1638,6 +1650,21 @@ width: 2em;
   
   /*FINAL DE AJUSTES VARIOS*/
   }
+
+  #sobre-nosotros .text-nosotros h3 {
+    /*COMIENZO DE MEDIDAS*/
+    width: 90%;
+    margin-top: 1em;
+    font-size: 1.5em;
+    padding-left: 0.5em;
+    /*FIN DE MEDIDAS*/
+    /*COMIENZO DE ALINEACIÓN*/
+    text-align: center;
+    /*FINAL DE ALINEACIÓN*/
+    /*COMIENZO DE AJUSTES VARIOS*/
+    
+    /*FINAL DE AJUSTES VARIOS*/
+    }
   
   #sobre-nosotros .text-nosotros p {
   /*COMIENZO DE MEDIDAS*/
@@ -1655,6 +1682,16 @@ width: 2em;
   /*FINAL DE AJUSTES VARIOS*/
   }
   
+  #sobre-nosotros .text-nosotros img {
+    /*COMIENZO DE MEDIDAS*/
+    width: 50%;
+    /*FIN DE MEDIDAS*/
+    /*COMIENZO DE ALINEACIÓN*/
+    /*FINAL DE ALINEACIÓN*/
+    /*COMIENZO DE AJUSTES VARIOS*/
+    
+    /*FINAL DE AJUSTES VARIOS*/
+    }
   
   #sobre-nosotros .yomismo {
   /*COMIENZO DE MEDIDAS*/
@@ -1665,7 +1702,7 @@ height: 100%;
   text-align: center;
   /*FINAL DE ALINEACIÓN*/
   /*COMIENZO DE AJUSTES VARIOS*/
-  background-color: #047863;
+
   /*FINAL DE AJUSTES VARIOS*/
   
   }
