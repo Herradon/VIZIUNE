@@ -307,13 +307,27 @@ width: 100%;
 margin: 2em;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
-text-align: left;
 justify-content: center;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
 
 /*FINAL DE AJUSTES VARIOS*/
 }
+
+#sobre-nosotros .text-nosotros h2 {
+  /*COMIENZO DE MEDIDAS*/
+  width: 100%;
+  margin-top: 1em;
+  font-size: 4em;
+  padding-left: 0.5em;
+  /*FIN DE MEDIDAS*/
+  /*COMIENZO DE ALINEACIÓN*/
+  text-align: center;
+  /*FINAL DE ALINEACIÓN*/
+  /*COMIENZO DE AJUSTES VARIOS*/
+  
+  /*FINAL DE AJUSTES VARIOS*/
+  }
 
 #sobre-nosotros .text-nosotros h3 {
 /*COMIENZO DE MEDIDAS*/
@@ -346,17 +360,6 @@ text-align: justify;
 /*FINAL DE AJUSTES VARIOS*/
 }
 
-#sobre-nosotros .text-nosotros img {
-  /*COMIENZO DE MEDIDAS*/
-padding-left: 9em;
-  /*FIN DE MEDIDAS*/
-  /*COMIENZO DE ALINEACIÓN*/
-
-  /*FINAL DE ALINEACIÓN*/
-  /*COMIENZO DE AJUSTES VARIOS*/
-  
-  /*FINAL DE AJUSTES VARIOS*/
-  }
 
 
 
