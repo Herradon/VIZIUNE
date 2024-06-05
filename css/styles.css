@@ -420,8 +420,7 @@ text-align: center;
 
 #colaboradores a img {
 /*COMIENZO DE MEDIDAS*/
-width: 15em;
-height: 20%;
+width: 50%;
 /*FIN DE MEDIDAS*/
 /*COMIENZO DE ALINEACIÓN*/
 
@@ -1478,6 +1477,19 @@ height: 5em;
   /*---------------------COMIENZO DE INDEX---------------------*/
 
   /*--COMIENZO DEL HEADER--*/
+
+  .shop {
+    /*COMIENZO DE MEDIDAS*/
+    height: 3em;
+    background-size: cover;
+    /*FIN DE MEDIDAS*/
+    /*COMIENZO DE ALINEACIÓN*/
+    
+    /*FINAL DE ALINEACIÓN*/
+    /*COMIENZO DE AJUSTES VARIOS*/
+    background-image: none;
+    /*FINAL DE AJUSTES VARIOS*/
+    }
 
   #sobre-nosotros {
 /*COMIENZO DE MEDIDAS*/
