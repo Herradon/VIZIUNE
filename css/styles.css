@@ -297,7 +297,6 @@ display: flex;
 align-items: center;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-
 /*FINAL DE AJUSTES VARIOS*/
 
 }
@@ -311,7 +310,6 @@ margin: 2em;
 justify-content: center;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-
 /*FINAL DE AJUSTES VARIOS*/
 }
 
@@ -374,7 +372,7 @@ text-align: center;
 align-content: center ;
 /*FINAL DE ALINEACIÓN*/
 /*COMIENZO DE AJUSTES VARIOS*/
-
+background-color: var(co);
 /*FINAL DE AJUSTES VARIOS*/
 
 }
